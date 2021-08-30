@@ -8,5 +8,6 @@ This is my project that i built, mainly with the purpose to build a fully respon
 
 ## Languages and tools used for building this project:
 - HTML
-- CSS 
+- CSS
+- Javascript
 - VSCode
