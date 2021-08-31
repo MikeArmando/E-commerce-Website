@@ -79,10 +79,12 @@ body {
         font-family: 'Kaisei HarunoUmi', serif;
         font-size: 2rem;
         margin: .3rem;
-        margin-left: 1rem;
+        margin-left: 20rem;
     }
 
     .toggle-button {
+        left: 0;
+        margin-left: 1rem;
         display: flex;
     }
 
@@ -110,5 +112,88 @@ body {
 
     .icon2 {
         display: none;
+    }
+
+    .icon-ul {
+        position: absolute;
+        right: 0;
+        margin-right: .5rem;
+        display: flex;
+    }
+
+    .icon-ul li {
+        display: flex;
+        margin: .5rem;
+        margin-top: 0;
+        color: black;
+    }
+
+    .icon-ul li a {
+        color: black;
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .brand-title {
+        text-transform: uppercase;
+        font-family: 'Kaisei HarunoUmi', serif;
+        font-size: 2rem;
+        margin: 0;
+        margin-left: 7rem;
+    }
+
+    .toggle-button {
+        left: 0;
+        margin-left: 1rem;
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: 1.5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .icon2 {
+        display: none;
+    }
+
+    .icon-ul {
+        position: absolute;
+        right: 0;
+        margin-right: .5rem;
+        display: flex;
+    }
+
+    .icon-ul li {
+        display: flex;
+        margin: .5rem;
+        margin-top: 0;
+        color: black;
+    }
+
+    .icon-ul li a {
+        color: black;
     }
 }
