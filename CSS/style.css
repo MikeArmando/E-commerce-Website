@@ -25,25 +25,29 @@ body {
     height: 100%;
 }
 
-.navbar-links ul {
+.navbar-links .ul {
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-.navbar-links li {
+.navbar-links .ul li {
     list-style: none;
 }
 
-.navbar-links li a {
+.navbar-links .ul li a {
     display: block;
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin: .2rem 2rem;
 }
 
-.navbar-links li a:hover {
+.navbar-links .ul li a:hover {
     text-decoration: underline;
+}
+
+.icon {
+    display: none;
 }
 
 .toggle-button {
@@ -70,6 +74,14 @@ body {
         align-items: flex-start;
     }
 
+    .brand-title {
+        text-transform: uppercase;
+        font-family: 'Kaisei HarunoUmi', serif;
+        font-size: 2rem;
+        margin: .3rem;
+        margin-left: 1rem;
+    }
+
     .toggle-button {
         display: flex;
     }
@@ -94,5 +106,9 @@ body {
 
     .navbar-links.active {
         display: flex;
+    }
+
+    .icon2 {
+        display: none;
     }
 }
