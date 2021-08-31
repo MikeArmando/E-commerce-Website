@@ -4,9 +4,6 @@ body {
     padding: 0;
 }
 
-i {
-}
-
 .navbar {
     display: flex;
     position: relative;
