@@ -20,6 +20,8 @@ body {
     font-family: 'Kaisei HarunoUmi', serif;
     font-size: 2rem;
     margin: 1rem;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
     margin-left: 4rem;
 }
 
@@ -41,7 +43,7 @@ body {
     display: block;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    margin: .2rem 2rem;
+    margin: 0rem 2rem;
 }
 
 .navbar-links .ul li a:hover {
@@ -184,7 +186,6 @@ body {
 .background1 {
     background-image: url(https://images.unsplash.com/photo-1527016021513-b09758b777bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1052&q=80);
     height: 100vh;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
