@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 /* NavBar */
@@ -13,6 +14,8 @@ body {
     align-items: center;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
 }
 
 .brand-title {
@@ -70,6 +73,25 @@ body {
     width: 100%;
     background-color: black;
     border-radius: 10px;
+}
+
+@media (max-width: 1050px) {
+    .brand-title {
+        text-transform: uppercase;
+        font-family: 'Kaisei HarunoUmi', serif;
+        font-size: 2rem;
+        margin: 1rem;
+        margin-top: .3rem;
+        margin-bottom: .3rem;
+        margin-left: 1rem;
+    }
+
+    .navbar-links .ul li a {
+        display: block;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        margin: 0rem 1rem;
+    }
 }
 
 @media (max-width: 800px) {
