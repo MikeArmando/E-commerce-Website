@@ -4,6 +4,8 @@ body {
     padding: 0;
 }
 
+/* NavBar */
+
 .navbar {
     display: flex;
     position: relative;
@@ -73,7 +75,6 @@ body {
         flex-direction: column;
         align-items: flex-start;
     }
-
     .brand-title {
         text-transform: uppercase;
         font-family: 'Kaisei HarunoUmi', serif;
@@ -81,53 +82,43 @@ body {
         margin: .3rem;
         margin-left: 20rem;
     }
-
     .toggle-button {
         left: 0;
         margin-left: 1rem;
         display: flex;
     }
-
     .navbar-links {
         display: none;
         width: 100%;
     }
-
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
     }
-
     .navbar-links ul li {
         text-align: center;
     }
-
     .navbar-links ul li a {
         padding: 1.5rem 1rem;
     }
-
     .navbar-links.active {
         display: flex;
     }
-
     .icon2 {
         display: none;
     }
-
     .icon-ul {
         position: absolute;
         right: 0;
         margin-right: .5rem;
         display: flex;
     }
-
     .icon-ul li {
         display: flex;
         margin: .5rem;
         margin-top: 0;
         color: black;
     }
-
     .icon-ul li a {
         color: black;
     }
@@ -138,62 +129,62 @@ body {
         flex-direction: column;
         align-items: flex-start;
     }
-
     .brand-title {
         text-transform: uppercase;
         font-family: 'Kaisei HarunoUmi', serif;
         font-size: 2rem;
         margin: 0;
-        margin-left: 7rem;
+        margin-left: 4.3rem;
     }
-
     .toggle-button {
         left: 0;
         margin-left: 1rem;
         display: flex;
     }
-
     .navbar-links {
         display: none;
         width: 100%;
     }
-
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
     }
-
     .navbar-links ul li {
         text-align: center;
     }
-
     .navbar-links ul li a {
         padding: 1.5rem 1rem;
     }
-
     .navbar-links.active {
         display: flex;
     }
-
     .icon2 {
         display: none;
     }
-
     .icon-ul {
         position: absolute;
         right: 0;
         margin-right: .5rem;
         display: flex;
     }
-
     .icon-ul li {
         display: flex;
         margin: .5rem;
         margin-top: 0;
         color: black;
     }
-
     .icon-ul li a {
         color: black;
     }
+}
+
+/* . . . */
+
+/* Background */
+.background1 {
+    background-image: url(https://images.unsplash.com/photo-1527016021513-b09758b777bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1052&q=80);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
