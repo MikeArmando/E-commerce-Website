@@ -216,11 +216,27 @@ body {
     align-items: center;
 }
 
+.intro-box {
+
+
+}
+
 .intro-text {
     letter-spacing: .5rem;
     font-size: 2rem;
     padding: 0;
     margin: 0;
+    margin-top: 18rem;
     color: white;
+}
+
+.shop-btn {
+    border: 2px solid black;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    cursor: pointer;
+    margin-left: 8rem;
+    margin-top: 15rem;
+    padding: .8rem 1.5rem;
 }
 
