@@ -232,6 +232,39 @@ body {
     cursor: pointer;
     margin-left: 8rem;
     margin-top: 15rem;
-    padding: .8rem 1.5rem;
+    padding: 0;
+    outline: none;
+}
+.shop-btn a {
+    display: block;
+    margin: 0;
+    padding: 1rem;
+    display: block;
+    text-decoration: none;
+    color: black;
+    transition: ease-out .4s;
 }
 
+.shop-btn a:hover {
+    background-color: black;
+    color: white;
+
+}
+
+@media (max-width: 400px) {
+    .shop-btn {
+        border: 2px solid black;
+        text-transform: uppercase;
+        letter-spacing: .3rem;
+        cursor: pointer;
+        margin-left: .2rem;
+        margin-top: 15rem;
+        padding: .8rem 1.5rem;
+    }
+    
+    .shop-btn a {
+        text-decoration: none;
+        color: black;
+    }
+
+}
