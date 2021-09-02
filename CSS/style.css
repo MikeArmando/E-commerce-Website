@@ -85,7 +85,6 @@ body {
         margin-bottom: .3rem;
         margin-left: 1rem;
     }
-
     .navbar-links .ul li a {
         display: block;
         text-decoration: none;
@@ -205,6 +204,7 @@ body {
 /* . . . */
 
 /* Background */
+
 .background1 {
     background-image: url(https://images.unsplash.com/photo-1527016021513-b09758b777bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1052&q=80);
     height: 100vh;
@@ -235,6 +235,7 @@ body {
     padding: 0;
     outline: none;
 }
+
 .shop-btn a {
     display: block;
     margin: 0;
@@ -248,7 +249,6 @@ body {
 .shop-btn a:hover {
     background-color: black;
     color: white;
-
 }
 
 @media (max-width: 400px) {
@@ -272,3 +272,6 @@ body {
         outline: none;
     }
 }
+
+/* . . . */
+
