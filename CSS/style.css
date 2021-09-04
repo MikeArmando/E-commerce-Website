@@ -1,8 +1,8 @@
 body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 /* NavBar */
@@ -220,7 +220,7 @@ body {
     font-size: 2rem;
     padding: 0;
     margin: 0;
-    margin-top: 18rem;
+    margin-top: 10rem;
     color: white;
 }
 
@@ -230,7 +230,7 @@ body {
     letter-spacing: .3rem;
     cursor: pointer;
     margin-left: 8rem;
-    margin-top: 15rem;
+    margin-top: 10rem;
     padding: 0;
     outline: none;
 }
@@ -275,3 +275,30 @@ body {
 
 /* . . . */
 
+/* Special */
+
+.special-background {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.special-background .item1 {
+    background-color: rgb(99, 99, 155);
+    height: 40rem;
+    width: 33rem;
+}
+
+.special-background .item2 {
+    background-color: rgb(111, 187, 231);
+    height: 40rem;
+    width: 33rem;
+}
+
+.special-background .item3 {
+    background-color: rgb(115, 231, 111);
+    height: 40rem;
+    width: 33rem;
+}
