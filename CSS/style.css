@@ -16,6 +16,7 @@ body {
     color: rgb(0, 0, 0);
     position: fixed;
     width: 100%;
+    z-index: 30;
 }
 
 .brand-title {
@@ -279,10 +280,13 @@ body {
 
 .special-background {
     background-color: white;
-    height: 100vh;
+    height: 110vh;
+}
+
+.special-background h1 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin: 3rem;
 }
 
 .special-box {
@@ -291,54 +295,19 @@ body {
     align-items: center;
 }
 
-.special-background .item1 {
-    background-image: url(/IMG/austin-wade-iQn82USu8gs-unsplash.jpg);
+img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     height: 45rem;
     width: 30rem;
-    transition: transform .3s ease-in-out;
+    transition: transform .5s ease-in-out;
     margin: 0rem 1rem;
     padding: 0;
     margin: 0;
 }
 
-.special-background .item1:hover {
-    transform: scale(1.1);
-}
-
-.special-background .item2 {
-    background-image: url(/IMG/taras-chernus-iIjResyhhW0-unsplash.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 45rem;
-    width: 31rem;
-    transition: transform .3s ease-in-out;
-    margin: 0rem 1rem;
-    padding: 0;
-    margin: 0;
-}
-
-.special-background .item2:hover {
-    transform: scale(1.1);
-}
-
-.special-background .item3 {
-    background-image: url(/IMG/hamza-nouasria-owpsBDBK5nY-unsplash.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 45rem;
-    width: 31rem;
-    transition: transform .3s ease-in-out;
-    margin: 0rem 1rem;
-    padding: 0;
-    margin: 0;
-}
-
-.special-background .item3:hover {
+img:hover {
     transform: scale(1.1);
 }
 
