@@ -205,7 +205,7 @@ body {
 /* Background */
 
 .background1 {
-    background-image: url(https://images.unsplash.com/photo-1527016021513-b09758b777bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1052&q=80);
+    background-image: url(/IMG/james-balensiefen-XovTIAjyx2E-unsplash.jpg);
     height: 100vh;
     background-position: top;
     background-repeat: no-repeat;
@@ -285,20 +285,35 @@ body {
     align-items: center;
 }
 
+.special-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .special-background .item1 {
-    background-color: rgb(99, 99, 155);
-    height: 40rem;
-    width: 33rem;
+    background-image: url(/IMG/austin-wade-iQn82USu8gs-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 45rem;
+    width: 30rem;
 }
 
 .special-background .item2 {
-    background-color: rgb(111, 187, 231);
-    height: 40rem;
-    width: 33rem;
+    background-image: url(/IMG/taras-chernus-iIjResyhhW0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 45rem;
+    width: 31rem;
 }
 
 .special-background .item3 {
-    background-color: rgb(115, 231, 111);
-    height: 40rem;
-    width: 33rem;
+    background-image: url(/IMG/hamza-nouasria-owpsBDBK5nY-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 45rem;
+    width: 31rem;
 }
