@@ -298,6 +298,14 @@ body {
     background-size: contain;
     height: 45rem;
     width: 30rem;
+    transition: transform .3s ease-in-out;
+    margin: 0rem 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.special-background .item1:hover {
+    transform: scale(1.1);
 }
 
 .special-background .item2 {
@@ -307,6 +315,14 @@ body {
     background-size: contain;
     height: 45rem;
     width: 31rem;
+    transition: transform .3s ease-in-out;
+    margin: 0rem 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.special-background .item2:hover {
+    transform: scale(1.1);
 }
 
 .special-background .item3 {
@@ -316,4 +332,17 @@ body {
     background-size: contain;
     height: 45rem;
     width: 31rem;
+    transition: transform .3s ease-in-out;
+    margin: 0rem 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+.special-background .item3:hover {
+    transform: scale(1.1);
+}
+
+.zoom {
+    overflow: hidden;
+    margin: 1rem;
 }
