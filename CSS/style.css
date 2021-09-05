@@ -324,24 +324,28 @@ img:hover {
 .btn-box .btn1 {
     text-transform: uppercase;
     letter-spacing: .2rem;
-    padding: .7rem 2rem;
-    cursor: pointer;
-    margin-right: 4rem;
-    border: 1.5px solid black;
+    padding: .4rem 1rem;
+    margin-right: 4.5rem;
+    color: black;
+    text-decoration: none;
 }
 .btn-box .btn2 {
     text-transform: uppercase;
     letter-spacing: .2rem;
-    padding: .7rem 2rem;
-    cursor: pointer;
-    margin-right: 4rem;
-    border: 1.5px solid black;
+    padding: .4rem 1rem;
+    margin-right: 4.5rem;
+    color: black;
+    text-decoration: none;
 }
 .btn-box .btn3 {
     text-transform: uppercase;
     letter-spacing: .2rem;
-    padding: .7rem 2rem;
-    cursor: pointer;
-    margin-right: .3rem;
-    border: 1.5px solid black;
+    padding: .4rem 1rem;
+    margin-right: 0rem;
+    color: black;
+    text-decoration: none;
+}
+
+.btn-box a:hover {
+    text-decoration: underline;
 }
