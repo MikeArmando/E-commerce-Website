@@ -280,7 +280,7 @@ body {
 
 .special-background {
     background-color: white;
-    height: 110vh;
+    height: 120vh;
 }
 
 .special-background h1 {
@@ -314,4 +314,34 @@ img:hover {
 .zoom {
     overflow: hidden;
     margin: 1rem;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-box .btn1 {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding: .7rem 2rem;
+    cursor: pointer;
+    margin-right: 4rem;
+    border: 1.5px solid black;
+}
+.btn-box .btn2 {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding: .7rem 2rem;
+    cursor: pointer;
+    margin-right: 4rem;
+    border: 1.5px solid black;
+}
+.btn-box .btn3 {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding: .7rem 2rem;
+    cursor: pointer;
+    margin-right: .3rem;
+    border: 1.5px solid black;
 }
