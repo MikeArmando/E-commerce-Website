@@ -274,38 +274,46 @@ body {
     align-items: center;
 }
 
+.background1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .intro-text {
+    text-transform: uppercase;
+    font-weight: 200;
     letter-spacing: .5rem;
     font-size: 2rem;
-    padding: 0;
-    margin: 0;
     margin-top: 10rem;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .shop-btn {
-    border: 2px solid black;
+    background-color: transparent;
+    border: none;
+    border: 2px solid rgb(255, 255, 255);
     text-transform: uppercase;
     letter-spacing: .3rem;
     cursor: pointer;
-    margin-left: 8rem;
-    margin-top: 10rem;
     padding: 0;
+    margin-top: 5rem;
     outline: none;
 }
 
 .shop-btn a {
     display: block;
     margin: 0;
-    padding: 1rem;
+    padding: .8rem 1.7rem;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     transition: ease-out .4s;
 }
 
 .shop-btn a:hover {
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 @media (max-width: 400px) {
@@ -585,14 +593,25 @@ body {
     color: white;
 }
 
+.feature-title {
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+.feature-text {
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
 .feature-background .box button {
     text-transform: uppercase;
     letter-spacing: .2rem;
     cursor: pointer;
-    margin-top: 10rem;
+    margin-top: 8rem;
     border: none;
     border: 2px solid black;
-    transition: ease-out .4s;
+    transition: background-color .4s ease-out;
 }
 
 .feature-background .box button:hover {
@@ -616,6 +635,6 @@ body {
 /* Background3 */
 
 
-.background3 {
-    height: 100vh;
+.footer {
+    height: 7vh;
 }
