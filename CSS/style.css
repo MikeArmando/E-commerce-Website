@@ -632,9 +632,101 @@ body {
 
 /* . . . */
 
-/* Background3 */
+/* feature-background2 */
 
+.feature-background2 {
+    display: grid;
+    grid-template: auto auto / auto auto;
+    height: 90vh;
+}
+
+.feature-background2 .feature-img1 {
+    background-image: url(https://images.unsplash.com/photo-1578681994506-b8f463449011?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fGNsb3RoaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    height: 130%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2rem 1rem;
+    margin-left: 2rem;
+}
+
+.feature-background2 .feature-img1 .inner-img-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    border: 3px solid white;
+}
+
+.feature-background2 .feature-img1 .inner-img-box h1 {
+    color: white;
+    margin: 0rem 1.5rem;
+}
+
+.feature-background2 .feature-img1 .inner-img-box div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 20%;
+    margin: 1.5rem 1.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding: .4rem 1rem;
+}
+
+.feature-background2 .feature-img1 .inner-img-box div a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.feature-background2 .feature-img2 {
+    background-image: url(https://images.unsplash.com/photo-1604272490759-7c465473958a?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTR8MXpNNDVFUTA4U018fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    height: 130%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2rem 1rem;
+    margin-right: 2rem;
+}
+
+.feature-background2 .feature-img2 .inner-img-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    border: 3px solid white;
+}
+
+.feature-background2 .feature-img2 .inner-img-box h1 {
+    color: white;
+    margin: 0rem 1.5rem;
+}
+
+.feature-background2 .feature-img2 .inner-img-box div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 20%;
+    margin: 1.5rem 1.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding: .4rem 1rem;
+}
+
+.feature-background2 .feature-img2 .inner-img-box div a {
+    color: black;
+    text-decoration: none;
+}
+
+/* . . . */
+
+/* Footer */
 
 .footer {
-    height: 7vh;
+    height: 0;
 }
