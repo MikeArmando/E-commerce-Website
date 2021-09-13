@@ -674,11 +674,21 @@ body {
     text-transform: uppercase;
     letter-spacing: .2rem;
     padding: .4rem 1rem;
+    transition: background-color .5s ease-out;
 }
 
 .feature-background2 .feature-img1 .inner-img-box div a {
     color: black;
     text-decoration: none;
+    transition: color .5s ease-out;
+}
+
+.feature-background2 .feature-img1 .inner-img-box div:hover {
+    background-color: black;
+}
+
+.feature-background2 .feature-img1 .inner-img-box div a:hover {
+    color: white;
 }
 
 
@@ -716,11 +726,21 @@ body {
     text-transform: uppercase;
     letter-spacing: .2rem;
     padding: .4rem 1rem;
+    transition: background-color .5s ease-out;
 }
 
 .feature-background2 .feature-img2 .inner-img-box div a {
     color: black;
     text-decoration: none;
+    transition: color .5s ease-out;
+}
+
+.feature-background2 .feature-img2 .inner-img-box div:hover {
+    background-color: black;
+}
+
+.feature-background2 .feature-img2 .inner-img-box div a:hover {
+    color: white;
 }
 
 /* . . . */
