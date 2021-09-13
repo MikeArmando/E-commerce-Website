@@ -673,12 +673,12 @@ body {
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: .2rem;
-    padding: .4rem 1rem;
     border: 2px solid black;
     transition: background-color .5s ease-out;
 }
 
 .feature-background2 .feature-img1 .inner-img-box button a {
+    padding: .4rem 1rem;
     color: black;
     text-decoration: none;
     transition: color .5s ease-out;
@@ -726,7 +726,6 @@ body {
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: .2rem;
-    padding: .4rem 1rem;
     border: 2px solid black;
     transition: background-color .5s ease-out;
 }
@@ -734,6 +733,7 @@ body {
 .feature-background2 .feature-img2 .inner-img-box button a {
     color: black;
     text-decoration: none;
+    padding: .4rem 1rem;
     transition: color .5s ease-out;
 }
 
