@@ -650,6 +650,7 @@ body {
     margin-left: 2rem;
 }
 
+
 .feature-background2 .feature-img1 .inner-img-box {
     display: flex;
     flex-direction: column;
@@ -660,6 +661,8 @@ body {
 }
 
 .feature-background2 .feature-img1 .inner-img-box h1 {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
     color: white;
     margin: 1rem 3rem;
 }
@@ -695,6 +698,10 @@ body {
 }
 
 
+
+
+
+
 .feature-background2 .feature-img2 {
     background-image: url(https://images.unsplash.com/photo-1604272490759-7c465473958a?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTR8MXpNNDVFUTA4U018fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
     height: 130%;
@@ -715,6 +722,8 @@ body {
 }
 
 .feature-background2 .feature-img2 .inner-img-box h1 {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
     color: white;
     margin: 1rem 3rem;
 }
