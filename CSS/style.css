@@ -673,6 +673,7 @@ body {
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: .2rem;
+    padding: 0;
     border: 2px solid black;
     transition: background-color .5s ease-out;
 }
@@ -726,6 +727,7 @@ body {
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: .2rem;
+    padding: 0;
     border: 2px solid black;
     transition: background-color .5s ease-out;
 }
