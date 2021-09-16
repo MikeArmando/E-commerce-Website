@@ -762,3 +762,8 @@ body {
 .footer {
     height: 50vh;
 }
+
+.footer-box {
+    background-color: grey;
+    height: 90%;
+}
