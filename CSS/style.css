@@ -971,9 +971,7 @@ body {
     text-decoration: none;
 }
 
-.info-box p a:hover {
-    text-decoration: underline;
-}
+
 
 .follow-box h3 {
     letter-spacing: .1rem;
