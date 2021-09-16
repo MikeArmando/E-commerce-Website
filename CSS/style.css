@@ -924,6 +924,90 @@ body {
 }
 
 .footer-box {
-    background-color: grey;
     height: 90%;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.clothing-box h3 {
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: .9rem;
+}
+
+.clothing-box p {
+    font-weight: 200;
+    font-size: .8rem;
+}
+
+.info-box h3 {
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: .9rem;
+}
+
+.info-box p {
+    font-weight: 200;
+    font-size: .8rem;
+}
+
+.follow-box h3 {
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: .9rem;
+}
+
+.follow-box p {
+    font-weight: 200;
+    font-size: .8rem;
+}
+
+.follow-box a {
+    margin: 0rem .5rem;
+    color: black;
+}
+
+.join-box h3 {
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: .9rem;
+}
+
+.join-box p {
+    font-weight: 200;
+    font-size: .8rem;
+}
+
+.join-box div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.join-box div input {
+    margin-bottom: 1rem;
+    padding: .6rem .7rem;
+}
+
+.join-box div button {
+    cursor: pointer;
+    background-color: black;
+    padding: .5rem 1.5rem;
+
+}
+
+.join-box div button a {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: white;
+    text-decoration: none;
 }
