@@ -945,6 +945,15 @@ body {
     font-size: .8rem;
 }
 
+.clothing-box p a {
+    color: black;
+    text-decoration: none;
+}
+
+.clothing-box p a:hover {
+    text-decoration: underline;
+}
+
 .info-box h3 {
     letter-spacing: .1rem;
     text-transform: uppercase;
