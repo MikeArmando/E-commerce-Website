@@ -971,7 +971,9 @@ body {
     text-decoration: none;
 }
 
-
+.info-box p a:hover {
+    text-decoration: underline;
+}
 
 .follow-box h3 {
     letter-spacing: .1rem;
@@ -993,7 +995,6 @@ body {
 .follow-box .insta-icon {
     margin-left: 0;
 }
-
 
 .join-box h3 {
     letter-spacing: .1rem;
