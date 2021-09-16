@@ -308,7 +308,7 @@ body {
     padding: .8rem 1.7rem;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    transition: ease-out .4s;
+    transition: ease-out .5s;
 }
 
 .shop-btn a:hover {
@@ -974,6 +974,11 @@ body {
     color: black;
 }
 
+.follow-box .insta-icon {
+    margin-left: 0;
+}
+
+
 .join-box h3 {
     letter-spacing: .1rem;
     text-transform: uppercase;
@@ -996,18 +1001,29 @@ body {
 .join-box div input {
     margin-bottom: 1rem;
     padding: .6rem .7rem;
+    width: 12rem;
 }
 
 .join-box div button {
     cursor: pointer;
     background-color: black;
-    padding: .5rem 1.5rem;
-
+    transition: background-color .5s ease;
 }
 
 .join-box div button a {
+    display: block;
     text-transform: uppercase;
     letter-spacing: .2rem;
     color: white;
+    padding: .4rem 1rem;
     text-decoration: none;
+    transition: color .5s ease;
+}
+
+.join-box div button:hover {
+    background-color: white;
+}
+
+.join-box div button a:hover {
+    color: black;
 }
