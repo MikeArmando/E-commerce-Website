@@ -988,12 +988,20 @@ body {
 }
 
 .follow-box a {
-    margin: 0rem .5rem;
+    margin: 0rem .8rem;
     color: black;
 }
 
 .follow-box .insta-icon {
     margin-left: 0;
+}
+
+.follow-box .fab {
+    transition: transform .6s ease;
+}
+
+.follow-box .fab:hover {
+    transform: rotate(-90deg);
 }
 
 .join-box h3 {
