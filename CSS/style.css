@@ -5,6 +5,34 @@ body {
     padding: 0;
 }
 
+.test-box {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 16rem;
+}
+
+.test-box div {
+    margin-left: 2rem;
+}
+
+.test-box div ul li {
+    margin: .5rem 0rem;
+    list-style: none;
+}
+
+.test-box div ul li a {
+    font-size: .8rem;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-shop:hover {
+    opacity: 0;
+}
+
 /* NavBar */
 
 .navbar {
@@ -229,7 +257,7 @@ body {
     text-transform: uppercase;
     font-weight: 200;
     letter-spacing: .5rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 10rem;
     color: rgb(255, 255, 255);
 }
