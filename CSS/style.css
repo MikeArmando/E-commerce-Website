@@ -5,32 +5,42 @@ body {
     padding: 0;
 }
 
-.test-box {
+.sub-menu {
     display: none;
-    position: absolute;
     background-color: white;
-    border: 2px solid black;
+    position: absolute;
     width: 100%;
-    margin-top: 16rem;
+    height: 15rem;
 }
 
-.test-box div {
-    margin-left: 2rem;
+.sub-menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.test-box div ul li {
+.sub-title1 {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: .9rem;
+}
+
+.sub-menu ul li a {
+    font-size: .9rem;
+}
+
+.sub-menu ul li {
+    margin: .2rem;
+}
+
+.sub-menu-ul ul {
+    padding: 0rem 2rem;
     margin: .5rem 0rem;
-    list-style: none;
 }
 
-.test-box div ul li a {
-    font-size: .8rem;
-    text-decoration: none;
-    color: black;
-}
-
-.nav-shop:hover {
-    opacity: 0;
+.nav-shop:hover .sub-menu {
+    display: flex;
 }
 
 /* NavBar */
@@ -61,7 +71,7 @@ body {
     height: 100%;
 }
 
-.navbar-links .ul {
+.navbar-links .uls {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,18 +79,18 @@ body {
     padding: 0;
 }
 
-.navbar-links ul li {
+.navbar-links .uls li {
     list-style: none;
 }
 
-.navbar-links .ul li a {
+.navbar-links .uls li a {
     display: block;
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin: 0rem 2rem;
 }
 
-.navbar-links .ul li a:hover {
+.navbar-links .uls li a:hover {
     text-decoration: underline;
 }
 
