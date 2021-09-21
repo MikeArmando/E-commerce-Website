@@ -1067,3 +1067,11 @@ body {
 .join-box div button a:hover {
     color: black;
 }
+
+/* . . .  */
+
+/* Shop-Page */
+
+.shop-page-background {
+    background-color: grey;
+}
