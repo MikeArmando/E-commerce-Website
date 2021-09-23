@@ -1107,21 +1107,22 @@ body {
     height: 80%;
     width: 45%;
     margin: 1rem;
-    border: 2px solid;
 }
 
 .collectionImg1 h1 {
+    font-size: 2rem;
     color: white;
 }
 
 .collectionImg1 button {
-    padding: .5rem 0rem;
+    padding: .7rem 0rem;
     border: 2px solid;
 }
 
 .collectionImg1 button a {
-    padding: .5rem 2rem;
-    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding: .8rem 1.8rem;
     color: black;
     text-decoration: none;
 }
@@ -1138,21 +1139,144 @@ body {
     height: 80%;
     width: 45%;
     margin: 1rem;
-    border: 2px solid;
 }
 
 .collectionImg2 h1 {
+    font-size: 2rem;
     color: white;
 }
 
 .collectionImg2 button {
-    padding: .5rem 0rem;
+    padding: .7rem 0rem;
     border: 2px solid;
 }
 
 .collectionImg2 button a {
-    padding: .5rem 2rem;
-    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding: .8rem 1.8rem;
     color: black;
     text-decoration: none;
+}
+
+
+.shopPageBackground2 {
+    height: 90vh;
+}
+
+.shopPageItemBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.ShopPageItem1 {
+    background-image: url(https://images.unsplash.com/photo-1523381294911-8d3cead13475?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+    height: 80%;
+    width: 50%;
+}
+
+.ShopPageItem1 h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: .2rem;
+    margin-top: 8rem;
+    color: white;
+}
+
+.ShopPageItem1 button {
+    padding: .5rem 0rem;
+    border: 2px solid;
+
+}
+
+.ShopPageItem1 button a {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.ShopPageItem2 {
+    background-image: url(https://images.unsplash.com/photo-1564557287817-3785e38ec1f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+    height: 80%;
+    width: 50%;
+}
+
+.ShopPageItem2 h1 {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 3rem;
+    margin-top: 8rem;
+    color: white;
+}
+
+.ShopPageItem2 button {
+    padding: .5rem 0rem;
+    border: 2px solid;
+
+}
+
+.ShopPageItem2 button a {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+.ShopPageItem3 {
+    background-image: url(https://images.unsplash.com/photo-1617952385804-1da4f8d71ba9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+    height: 80%;
+    width: 50%;
+}
+
+.ShopPageItem3 h1 {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 3rem;
+    margin-top: 8rem;
+    color: white;
+}
+
+.ShopPageItem3 button {
+    padding: .5rem 0rem;
+    border: 2px solid;
+
+}
+
+.ShopPageItem3 button a {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    color: black;
 }
