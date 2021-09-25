@@ -1130,8 +1130,8 @@ body {
 }
 
 .collectionImg1 button:hover {
-    background-color: transparent;
-    color: white;
+    background-color: black;
+    color: black;
 }
 
 .collectionImg1 button a:hover {
@@ -1173,14 +1173,13 @@ body {
 }
 
 .collectionImg2 button:hover {
-    background-color: transparent;
-    color: white;
+    background-color: black;
+    color: black;
 }
 
 .collectionImg2 button a:hover {
     color: white;
 }
-
 
 .shopPageBackground2 {
     height: 90vh;
@@ -1209,15 +1208,15 @@ body {
 }
 
 .ShopPageItem1 h1 {
-    text-transform: uppercase;
+    font-family: 'Lora', serif;
     font-size: 3rem;
     letter-spacing: .2rem;
-    margin-top: 8rem;
+    margin-top: 10rem;
     color: white;
 }
 
 .ShopPageItem1 button {
-    padding: .5rem 0rem;
+    padding: .6rem 0rem;
     border: 2px solid;
     transition: all .7s ease;
 }
@@ -1232,8 +1231,8 @@ body {
 }
 
 .ShopPageItem1 button:hover {
-    background-color: transparent;
-    color: white;
+    background-color: black;
+    color: black;
 }
 
 .ShopPageItem1 button a:hover {
@@ -1255,15 +1254,15 @@ body {
 }
 
 .ShopPageItem2 h1 {
-    text-transform: uppercase;
+    font-family: 'Lora', serif;
     letter-spacing: .2rem;
     font-size: 3rem;
-    margin-top: 8rem;
+    margin-top: 10rem;
     color: white;
 }
 
 .ShopPageItem2 button {
-    padding: .5rem 0rem;
+    padding: .6rem 0rem;
     border: 2px solid;
     transition: all .7s ease;
 }
@@ -1278,8 +1277,8 @@ body {
 }
 
 .ShopPageItem2 button:hover {
-    background-color: transparent;
-    color: white;
+    background-color: black;
+    color: black;
 }
 
 .ShopPageItem2 button a:hover {
@@ -1302,15 +1301,15 @@ body {
 }
 
 .ShopPageItem3 h1 {
-    text-transform: uppercase;
+    font-family: 'Lora', serif;
     letter-spacing: .2rem;
     font-size: 3rem;
-    margin-top: 8rem;
+    margin-top: 10rem;
     color: white;
 }
 
 .ShopPageItem3 button {
-    padding: .5rem 0rem;
+    padding: .6rem 0rem;
     border: 2px solid;
     transition: all .7s ease;
 }
@@ -1325,8 +1324,8 @@ body {
 }
 
 .ShopPageItem3 button:hover {
-    background-color: transparent;
-    color: white;
+    background-color: black;
+    color: black;
 }
 
 .ShopPageItem3 button a:hover {
