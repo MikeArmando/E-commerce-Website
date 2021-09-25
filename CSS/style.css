@@ -1104,9 +1104,9 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 80%;
-    width: 45%;
     margin: 1rem;
+    height: 82%;
+    width: 47%;
 }
 
 .collectionImg1 h1 {
@@ -1147,9 +1147,9 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 80%;
-    width: 45%;
     margin: 1rem;
+    height: 82%;
+    width: 47%;
 }
 
 .collectionImg2 h1 {
@@ -1202,7 +1202,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin: 1rem;
+    margin-left: 1.5rem;
     height: 80%;
     width: 50%;
 }
@@ -1248,7 +1248,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin: 1rem;
+    margin: 1.5rem;
     height: 80%;
     width: 50%;
 }
@@ -1295,7 +1295,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin: 1rem;
+    margin-right: 1.5rem;
     height: 80%;
     width: 50%;
 }
