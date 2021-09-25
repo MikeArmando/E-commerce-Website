@@ -1207,6 +1207,20 @@ body {
     width: 50%;
 }
 
+.ShopPageItemSection1 {
+    background-image: url(https://images.unsplash.com/photo-1514311548104-ae305aac4688?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 1.5rem;
+    height: 80%;
+    width: 50%;
+}
+
 .ShopPageItem1 h1 {
     font-family: 'Lora', serif;
     font-size: 3rem;
@@ -1249,6 +1263,20 @@ body {
     justify-content: space-evenly;
     align-items: center;
     margin: 1.5rem;
+    height: 80%;
+    width: 50%;
+}
+
+.ShopPageItemSection2 {
+    background-image: url(https://images.unsplash.com/photo-1564859227552-81fde4a1df0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 1.5rem;
     height: 80%;
     width: 50%;
 }
@@ -1296,6 +1324,20 @@ body {
     justify-content: space-evenly;
     align-items: center;
     margin-right: 1.5rem;
+    height: 80%;
+    width: 50%;
+}
+
+.ShopPageItemSection3 {
+    background-image: url(https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 1.5rem;
     height: 80%;
     width: 50%;
 }
