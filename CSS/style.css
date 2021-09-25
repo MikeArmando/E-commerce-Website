@@ -1083,7 +1083,7 @@ body {
 .shopPageBackground h1 {
     text-transform: uppercase;
     letter-spacing: .2rem;
-    margin-top: 7rem;
+    margin-top: 6rem;
     margin-bottom: 0;
 }
 
@@ -1117,6 +1117,7 @@ body {
 .collectionImg1 button {
     padding: .7rem 0rem;
     border: 2px solid;
+    transition: all .7s ease;
 }
 
 .collectionImg1 button a {
@@ -1125,6 +1126,16 @@ body {
     padding: .8rem 1.8rem;
     color: black;
     text-decoration: none;
+    transition: all .7s ease;
+}
+
+.collectionImg1 button:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.collectionImg1 button a:hover {
+    color: white;
 }
 
 .collectionImg2 {
@@ -1149,6 +1160,7 @@ body {
 .collectionImg2 button {
     padding: .7rem 0rem;
     border: 2px solid;
+    transition: all .7s ease;
 }
 
 .collectionImg2 button a {
@@ -1157,6 +1169,16 @@ body {
     padding: .8rem 1.8rem;
     color: black;
     text-decoration: none;
+    transition: all .7s ease;
+}
+
+.collectionImg2 button:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.collectionImg2 button a:hover {
+    color: white;
 }
 
 
@@ -1197,7 +1219,7 @@ body {
 .ShopPageItem1 button {
     padding: .5rem 0rem;
     border: 2px solid;
-
+    transition: all .7s ease;
 }
 
 .ShopPageItem1 button a {
@@ -1206,6 +1228,16 @@ body {
     padding: 1rem 1.5rem;
     text-decoration: none;
     color: black;
+    transition: all .7s ease;
+}
+
+.ShopPageItem1 button:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.ShopPageItem1 button a:hover {
+    color: white;
 }
 
 .ShopPageItem2 {
@@ -1233,7 +1265,7 @@ body {
 .ShopPageItem2 button {
     padding: .5rem 0rem;
     border: 2px solid;
-
+    transition: all .7s ease;
 }
 
 .ShopPageItem2 button a {
@@ -1242,6 +1274,16 @@ body {
     padding: 1rem 1.5rem;
     text-decoration: none;
     color: black;
+    transition: all .7s ease;
+}
+
+.ShopPageItem2 button:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.ShopPageItem2 button a:hover {
+    color: white;
 }
 
 
@@ -1270,7 +1312,7 @@ body {
 .ShopPageItem3 button {
     padding: .5rem 0rem;
     border: 2px solid;
-
+    transition: all .7s ease;
 }
 
 .ShopPageItem3 button a {
@@ -1279,4 +1321,14 @@ body {
     padding: 1rem 1.5rem;
     text-decoration: none;
     color: black;
+    transition: all .7s ease;
+}
+
+.ShopPageItem3 button:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.ShopPageItem3 button a:hover {
+    color: white;
 }
