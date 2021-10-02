@@ -341,7 +341,7 @@ body {
         color: white;
     }
     .shop-btn {
-        border: 2px solid black;
+        border: 2px solid rgb(255, 255, 255);
         text-transform: uppercase;
         letter-spacing: .3rem;
         cursor: pointer;
@@ -436,28 +436,26 @@ body {
 }
 
 @media (max-width: 800px) {
+    .special-background {
+        background-color: white;
+        height: 260vh;
+    }
     .special-background h1 {
         display: flex;
         justify-content: center;
-        margin: 3rem;
+        margin-top: 3rem;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 1rem;
     }
+
     .special-box {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    img {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        height: 45rem;
-        width: 30rem;
-        transition: transform .5s ease-in-out;
-        margin: 0rem 1rem;
-        padding: 0;
-        margin: 0;
-    }
+
     img:hover {
         transform: scale(1.1);
     }
