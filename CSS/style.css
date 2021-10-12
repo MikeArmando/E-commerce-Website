@@ -435,6 +435,308 @@ body {
     display: none;
 }
 
+@media (max-width: 1700px) {
+    .btn-box .btn1 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 13.5rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn2 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 20rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn3 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 21rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+}
+
+
+@media (max-width: 1600px) {
+    .btn-box .btn1 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 11.5rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn2 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 19.5rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn3 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 21rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+}
+
+@media (max-width: 1500px) {
+    .btn-box .btn1 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 11rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn2 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 18rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn3 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 19rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+}
+
+@media (max-width: 1500px) {
+    .btn-box .btn1 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 9.5rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn2 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 17rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn3 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 19rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+}
+
+@media (max-width: 1500px) {
+    .btn-box .btn1 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 9.5rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn2 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 19rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn3 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 20rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+}
+
+@media (max-width: 1400px) {
+    .btn-box .btn1 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 9.5rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn2 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 16rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn3 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 16rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+}
+
+
+@media (max-width: 1300px) {
+    .btn-box .btn1 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 9.5rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn2 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 13rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn3 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 14rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+}
+
+@media (max-width: 1200px) {
+    .btn-box .btn1 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 9.5rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn2 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 9rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn3 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 12rem;
+        color: black;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 1100px) {
+    .btn-box .btn1 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 6rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn2 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 9rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn3 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 11rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+}
+
+@media (max-width: 1000px) {
+    .btn-box .btn1 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 4rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn2 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 8rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .btn-box .btn3 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .4rem 1rem;
+        margin-left: 9rem;
+        color: black;
+        text-decoration: none;
+    }
+    
+}
+
+
 @media (max-width: 800px) {
     .special-background {
         background-color: white;
