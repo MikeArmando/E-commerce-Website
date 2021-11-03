@@ -1683,6 +1683,45 @@ body {
 
 /* . . .  */
 
+/* Shirt-page */
+
+.shirtPageBackground1 {
+    background-color: grey;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shirtPageItemBox {
+    background-color: rgb(223, 207, 207);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.shirtPageItem {
+    background-color: rgb(145, 145, 199);
+    height: 67%;
+    width: 20%;
+    border: 2px solid;
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Shop-Page */
 
 .shopPageBackground {
