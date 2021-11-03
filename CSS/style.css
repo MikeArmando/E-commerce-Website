@@ -1703,11 +1703,15 @@ body {
 }
 
 .shirtPageItem {
-    background-color: rgb(145, 145, 199);
     height: 67%;
     width: 20%;
     border: 2px solid;
     margin-top: 3rem;
+}
+
+.shirtPageItem img{
+    height: 100%;
+    width: 100%;
 }
 
 
