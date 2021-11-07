@@ -1686,7 +1686,6 @@ body {
 /* Shirt-page */
 
 .shirtPageBackground1 {
-    background-color: grey;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -1694,7 +1693,6 @@ body {
 }
 
 .shirtPageItemBox {
-    background-color: rgb(223, 207, 207);
     height: 100%;
     width: 100%;
     display: flex;
@@ -1705,7 +1703,6 @@ body {
 .shirtPageItem {
     height: 67%;
     width: 20%;
-    border: 2px solid;
     margin-top: 3rem;
 }
 
@@ -1713,6 +1710,9 @@ body {
     height: 100%;
     width: 100%;
 }
+
+
+
 
 
 
