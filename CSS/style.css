@@ -1685,11 +1685,8 @@ body {
 
 /* Shirt-page */
 
-.shirtPageBackground1 {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.shirtPageBackground {
+    height: 200vh;
 }
 
 .shirtPageItemBox {
