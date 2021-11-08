@@ -1711,6 +1711,12 @@ body {
     width: 100%;
 }
 
+.shirtPageItemPrice {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
 
 
 
