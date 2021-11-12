@@ -1700,7 +1700,7 @@ body {
 .shirtPageItem {
     height: 67%;
     width: 20%;
-    margin-top: 3rem;
+    margin-top: 8rem;
 }
 
 .shirtPageItem img{
@@ -1710,11 +1710,25 @@ body {
 
 .shirtPageItemPrice {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-content: center;
 }
 
+.shirtPageItemPrice1 {
+    margin-right: 3rem;
+}
 
+.shirtPageItemPrice2 {
+    margin-right: 3rem;
+}
+
+.shirtPageItemPrice3 {
+    margin-right: 3rem;
+}
+
+.shirtPageItemPrice4 {
+    margin-right: 6.8rem;
+}
 
 
 
