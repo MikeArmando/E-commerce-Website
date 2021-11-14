@@ -1715,20 +1715,38 @@ body {
 }
 
 .shirtPageItemPrice1 {
-    margin-right: 3rem;
+    margin-left: .5rem;
 }
 
 .shirtPageItemPrice2 {
-    margin-right: 3rem;
+    margin-right: 0rem;
 }
 
 .shirtPageItemPrice3 {
-    margin-right: 3rem;
+    margin-right: 0rem;
 }
 
 .shirtPageItemPrice4 {
-    margin-right: 6.8rem;
+    margin-right: 3.8rem;
 }
+
+.shirtPageItemPriceText {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: .8rem;
+}
+
+.shirtPageItemPriceNum {
+    font-size: .8rem;
+}
+
+
+
+
+
+
+
 
 
 
