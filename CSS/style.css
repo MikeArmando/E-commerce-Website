@@ -157,6 +157,7 @@ body {
         margin-bottom: .3rem;
         margin-left: 1rem;
     }
+
     .navbar-links .ul li a {
         display: block;
         text-decoration: none;
@@ -170,6 +171,7 @@ body {
         flex-direction: column;
         align-items: flex-start;
     }
+
     .brand-title {
         text-transform: uppercase;
         font-family: 'Kaisei HarunoUmi', serif;
@@ -177,43 +179,53 @@ body {
         margin: .3rem;
         margin-left: 20rem;
     }
+
     .toggle-button {
         left: 0;
         margin-left: 1rem;
         display: flex;
     }
+
     .navbar-links {
         display: none;
         width: 100%;
     }
+
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
     }
+
     .navbar-links ul li {
         text-align: center;
     }
+
     .navbar-links ul li a {
         padding: 1.5rem 1rem;
     }
+
     .navbar-links.active {
         display: flex;
     }
+
     .icon2 {
         display: none;
     }
+
     .icon-ul {
         position: absolute;
         right: 0;
         margin-right: .5rem;
         display: flex;
     }
+
     .icon-ul li {
         display: flex;
         margin: .5rem;
         margin-top: 0;
         color: black;
     }
+
     .icon-ul li a {
         color: black;
     }
@@ -224,49 +236,60 @@ body {
         flex-direction: column;
         align-items: flex-start;
     }
+
     .brand-title {
         text-transform: uppercase;
         font-family: 'Kaisei HarunoUmi', serif;
         font-size: 1.8rem;
         margin-left: 4.8rem;
     }
+
     .toggle-button {
         left: 0;
         margin-left: 1rem;
         display: flex;
     }
+
     .navbar-links {
         display: none;
         width: 100%;
     }
+
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
     }
+
     .navbar-links ul li {
         text-align: center;
     }
+
     .navbar-links ul li a {
         padding: 1.5rem 1rem;
     }
+
     .navbar-links.active {
         display: flex;
     }
+
     .icon2 {
         display: none;
     }
+
     .icon-ul {
         position: absolute;
         right: 0;
         margin-right: .5rem;
         display: flex;
     }
+
     .icon-ul li {
         display: flex;
         margin: .5rem;
         margin-top: 0;
         color: black;
     }
+
     .icon-ul li a {
         color: black;
     }
@@ -340,6 +363,7 @@ body {
         margin-left: .4rem;
         color: white;
     }
+
     .shop-btn {
         border: 2px solid rgb(255, 255, 255);
         text-transform: uppercase;
@@ -444,7 +468,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn2 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -453,7 +477,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn3 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -462,7 +486,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
 }
 
 @media (max-width: 1600px) {
@@ -474,7 +498,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn2 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -483,7 +507,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn3 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -492,7 +516,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
 }
 
 @media (max-width: 1500px) {
@@ -504,7 +528,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn2 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -513,7 +537,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn3 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -522,7 +546,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
 }
 
 @media (max-width: 1500px) {
@@ -534,7 +558,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn2 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -543,7 +567,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn3 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -552,7 +576,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
 }
 
 @media (max-width: 1500px) {
@@ -564,7 +588,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn2 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -573,7 +597,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn3 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -582,7 +606,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
 }
 
 @media (max-width: 1400px) {
@@ -594,7 +618,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn2 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -603,7 +627,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn3 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -612,7 +636,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
 }
 
 @media (max-width: 1300px) {
@@ -624,7 +648,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn2 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -633,7 +657,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn3 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -642,7 +666,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
 }
 
 @media (max-width: 1200px) {
@@ -654,7 +678,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn2 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -663,7 +687,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn3 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -683,7 +707,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn2 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -692,7 +716,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn3 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -701,7 +725,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
 }
 
 @media (max-width: 1000px) {
@@ -713,7 +737,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn2 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -722,7 +746,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
     .btn-box .btn3 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -731,7 +755,7 @@ body {
         color: black;
         text-decoration: none;
     }
-    
+
 }
 
 @media (max-width: 800px) {
@@ -739,6 +763,7 @@ body {
         background-color: white;
         height: 260vh;
     }
+
     .special-background h1 {
         display: flex;
         justify-content: center;
@@ -758,10 +783,12 @@ body {
     img:hover {
         transform: scale(1.1);
     }
+
     .zoom {
         overflow: hidden;
         margin: 1rem;
     }
+
     .btnall {
         display: flex;
         text-transform: uppercase;
@@ -772,6 +799,7 @@ body {
         color: black;
         text-decoration: none;
     }
+
     .btn-box .btn1 {
         display: none;
         text-transform: uppercase;
@@ -781,6 +809,7 @@ body {
         color: black;
         text-decoration: none;
     }
+
     .btn-box .btn2 {
         display: none;
         text-transform: uppercase;
@@ -790,6 +819,7 @@ body {
         color: black;
         text-decoration: none;
     }
+
     .btn-box .btn3 {
         display: none;
         text-transform: uppercase;
@@ -799,6 +829,7 @@ body {
         color: black;
         text-decoration: none;
     }
+
     .btn-box a:hover {
         text-decoration: underline;
     }
@@ -809,6 +840,7 @@ body {
         background-color: white;
         height: 290vh;
     }
+
     .special-background h1 {
         display: flex;
         justify-content: center;
@@ -817,12 +849,14 @@ body {
         margin-right: 0;
         margin-bottom: 0;
     }
+
     .special-box {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .zoom img {
         background-position: center;
         background-repeat: no-repeat;
@@ -834,13 +868,16 @@ body {
         padding: 0;
         margin: 0;
     }
+
     img:hover {
         transform: scale(1.1);
     }
+
     .zoom {
         overflow: hidden;
         margin: 1rem;
     }
+
     .btnall {
         display: flex;
         text-transform: uppercase;
@@ -851,6 +888,7 @@ body {
         color: black;
         text-decoration: none;
     }
+
     .btn-box .btn1 {
         display: none;
         text-transform: uppercase;
@@ -860,6 +898,7 @@ body {
         color: black;
         text-decoration: none;
     }
+
     .btn-box .btn2 {
         display: none;
         text-transform: uppercase;
@@ -869,6 +908,7 @@ body {
         color: black;
         text-decoration: none;
     }
+
     .btn-box .btn3 {
         display: none;
         text-transform: uppercase;
@@ -878,6 +918,7 @@ body {
         color: black;
         text-decoration: none;
     }
+
     .btn-box a:hover {
         text-decoration: underline;
     }
@@ -956,6 +997,7 @@ body {
         display: flex;
         justify-content: center;
     }
+
     .feature-background .box {
         display: flex;
         flex-direction: column;
@@ -963,19 +1005,23 @@ body {
         align-items: center;
         margin-top: 0rem;
     }
+
     .feature-background .box h1 {
         color: white;
         text-align: center;
     }
+
     .feature-title {
         font-family: 'Kaisei HarunoUmi', serif;
         font-size: 4rem;
         margin: 0;
         padding: 0;
     }
+
     .feature-text {
         font-family: 'Kaisei HarunoUmi', serif;
     }
+
     .feature-background .box button {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -985,9 +1031,11 @@ body {
         border: 2px solid black;
         transition: background-color .4s ease-out;
     }
+
     .feature-background .box button:hover {
         background-color: black;
     }
+
     .feature-background .box button a {
         display: block;
         padding: .8rem 1.5rem;
@@ -995,6 +1043,7 @@ body {
         text-decoration: none;
         transition: ease-out .4s;
     }
+
     .feature-background .box button a:hover {
         color: white;
     }
@@ -1128,6 +1177,7 @@ body {
         height: 150vh;
         margin-bottom: 5rem;
     }
+
     .feature-background2 .feature-img1 {
         background-image: url(https://images.unsplash.com/photo-1578681994506-b8f463449011?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fGNsb3RoaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
         height: 100%;
@@ -1137,6 +1187,7 @@ body {
         margin: 2rem 1rem;
         margin-left: 1rem;
     }
+
     .feature-background2 .feature-img1 .inner-img-box {
         display: flex;
         flex-direction: column;
@@ -1145,12 +1196,14 @@ body {
         height: 100%;
         overflow: hidden;
     }
+
     .feature-background2 .feature-img1 .inner-img-box h1 {
         text-transform: uppercase;
         letter-spacing: .5rem;
         color: white;
         text-align: center;
     }
+
     .feature-background2 .feature-img1 .inner-img-box button {
         display: flex;
         justify-content: center;
@@ -1165,18 +1218,22 @@ body {
         border: 2px solid black;
         transition: background-color .5s ease-out;
     }
+
     .feature-background2 .feature-img1 .inner-img-box button a {
         padding: .7rem 1.5rem;
         color: black;
         text-decoration: none;
         transition: color .5s ease-out;
     }
+
     .feature-background2 .feature-img1 .inner-img-box button:hover {
         background-color: black;
     }
+
     .feature-background2 .feature-img1 .inner-img-box button a:hover {
         color: white;
     }
+
     .feature-background2 .feature-img2 {
         background-image: url(https://images.unsplash.com/photo-1604272490759-7c465473958a?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTR8MXpNNDVFUTA4U018fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
         height: 100%;
@@ -1186,6 +1243,7 @@ body {
         margin: 4rem 1rem;
         margin-right: 1rem;
     }
+
     .feature-background2 .feature-img2 .inner-img-box {
         display: flex;
         flex-direction: column;
@@ -1193,12 +1251,14 @@ body {
         align-items: flex-start;
         height: 100%;
     }
+
     .feature-background2 .feature-img2 .inner-img-box h1 {
         text-transform: uppercase;
         letter-spacing: .5rem;
         color: white;
         text-align: center;
     }
+
     .feature-background2 .feature-img2 .inner-img-box button {
         display: flex;
         justify-content: center;
@@ -1213,15 +1273,18 @@ body {
         border: 2px solid black;
         transition: background-color .5s ease-out;
     }
+
     .feature-background2 .feature-img2 .inner-img-box button a {
         color: black;
         text-decoration: none;
         padding: .7rem 1.5rem;
         transition: color .5s ease-out;
     }
+
     .feature-background2 .feature-img2 .inner-img-box button:hover {
         background-color: black;
     }
+
     .feature-background2 .feature-img2 .inner-img-box button a:hover {
         color: white;
     }
@@ -1369,11 +1432,11 @@ body {
     .footer {
         height: 50vh;
     }
-    
+
     .footer-box {
         height: 90%;
     }
-    
+
     .footer-box {
         display: flex;
         justify-content: space-evenly;
@@ -1384,24 +1447,24 @@ body {
         margin-left: 1rem;
         margin-right: 0rem;
     }
-    
+
     .clothing-box h3 {
         letter-spacing: .1rem;
         text-transform: uppercase;
         font-weight: 200;
         font-size: .9rem;
     }
-    
+
     .clothing-box p {
         font-weight: 200;
         font-size: .8rem;
     }
-    
+
     .clothing-box p a {
         color: black;
         text-decoration: none;
     }
-    
+
     .clothing-box p a:hover {
         text-decoration: underline;
     }
@@ -1409,24 +1472,24 @@ body {
     .info-box {
         margin: 0rem .5rem;
     }
-    
+
     .info-box h3 {
         letter-spacing: .1rem;
         text-transform: uppercase;
         font-weight: 200;
         font-size: .9rem;
     }
-    
+
     .info-box p {
         font-weight: 200;
         font-size: .8rem;
     }
-    
+
     .info-box p a {
         color: black;
         text-decoration: none;
     }
-    
+
     .info-box p a:hover {
         text-decoration: underline;
     }
@@ -1434,19 +1497,19 @@ body {
     .follow-box {
         margin: 0rem .5rem;
     }
-    
+
     .follow-box h3 {
         letter-spacing: .1rem;
         text-transform: uppercase;
         font-weight: 200;
         font-size: .9rem;
     }
-    
+
     .follow-box p {
         font-weight: 200;
         font-size: .8rem;
     }
-    
+
     .follow-box a {
         margin: 0rem .8rem;
         color: black;
@@ -1455,15 +1518,15 @@ body {
     .follow-box .social-icons {
         margin: .2rem;
     }
-    
+
     .follow-box .insta-icon {
         margin-left: 0;
     }
-    
+
     .follow-box .fab {
         transition: transform .6s ease;
     }
-    
+
     .follow-box .fab:hover {
         transform: rotate(-90deg);
     }
@@ -1472,38 +1535,38 @@ body {
         margin-left: .5rem;
         margin-right: 1rem;
     }
-    
+
     .join-box h3 {
         letter-spacing: .1rem;
         text-transform: uppercase;
         font-weight: 200;
         font-size: .9rem;
     }
-    
+
     .join-box p {
         font-weight: 200;
         font-size: .8rem;
     }
-    
+
     .join-box div {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
     }
-    
+
     .join-box div input {
         margin-bottom: 1rem;
         padding: .6rem .7rem;
         width: 12rem;
     }
-    
+
     .join-box div button {
         cursor: pointer;
         background-color: black;
         transition: background-color .5s ease;
     }
-    
+
     .join-box div button a {
         display: block;
         text-transform: uppercase;
@@ -1513,11 +1576,11 @@ body {
         text-decoration: none;
         transition: color .5s ease;
     }
-    
+
     .join-box div button:hover {
         background-color: white;
     }
-    
+
     .join-box div button a:hover {
         color: black;
     }
@@ -1527,11 +1590,11 @@ body {
     .footer {
         height: 120vh;
     }
-    
+
     .footer-box {
         height: 90%;
     }
-    
+
     .footer-box {
         display: flex;
         flex-direction: column;
@@ -1544,24 +1607,24 @@ body {
     .clothing-box {
         margin: .7rem 0rem;
     }
-    
+
     .clothing-box h3 {
         letter-spacing: .1rem;
         text-transform: uppercase;
         font-weight: 200;
         font-size: .9rem;
     }
-    
+
     .clothing-box p {
         font-weight: 200;
         font-size: .8rem;
     }
-    
+
     .clothing-box p a {
         color: black;
         text-decoration: none;
     }
-    
+
     .clothing-box p a:hover {
         text-decoration: underline;
     }
@@ -1570,24 +1633,24 @@ body {
         margin: 1.5rem 0rem;
 
     }
-    
+
     .info-box h3 {
         letter-spacing: .1rem;
         text-transform: uppercase;
         font-weight: 200;
         font-size: .9rem;
     }
-    
+
     .info-box p {
         font-weight: 200;
         font-size: .8rem;
     }
-    
+
     .info-box p a {
         color: black;
         text-decoration: none;
     }
-    
+
     .info-box p a:hover {
         text-decoration: underline;
     }
@@ -1596,32 +1659,32 @@ body {
         margin: 1rem 0rem;
 
     }
-    
+
     .follow-box h3 {
         letter-spacing: .1rem;
         text-transform: uppercase;
         font-weight: 200;
         font-size: .9rem;
     }
-    
+
     .follow-box p {
         font-weight: 200;
         font-size: .8rem;
     }
-    
+
     .follow-box a {
         margin: 0rem .8rem;
         color: black;
     }
-    
+
     .follow-box .insta-icon {
         margin-left: 0;
     }
-    
+
     .follow-box .fab {
         transition: transform .6s ease;
     }
-    
+
     .follow-box .fab:hover {
         transform: rotate(-90deg);
     }
@@ -1630,38 +1693,38 @@ body {
         margin: 1.5rem 0rem;
 
     }
-    
+
     .join-box h3 {
         letter-spacing: .1rem;
         text-transform: uppercase;
         font-weight: 200;
         font-size: .9rem;
     }
-    
+
     .join-box p {
         font-weight: 200;
         font-size: .8rem;
     }
-    
+
     .join-box div {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
     }
-    
+
     .join-box div input {
         margin-bottom: 1rem;
         padding: .6rem .7rem;
         width: 12rem;
     }
-    
+
     .join-box div button {
         cursor: pointer;
         background-color: black;
         transition: background-color .5s ease;
     }
-    
+
     .join-box div button a {
         display: block;
         text-transform: uppercase;
@@ -1671,11 +1734,11 @@ body {
         text-decoration: none;
         transition: color .5s ease;
     }
-    
+
     .join-box div button:hover {
         background-color: white;
     }
-    
+
     .join-box div button a:hover {
         color: black;
     }
@@ -1706,7 +1769,7 @@ body {
     margin-top: 8rem;
 }
 
-.shirtPageItem img{
+.shirtPageItem img {
     width: 100%;
 }
 
@@ -1743,29 +1806,7 @@ body {
     font-size: .8rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* . . .  */
 
 /* Shop-Page */
 
@@ -2069,4 +2110,22 @@ body {
 
 .ShopPageItem3 button a:hover {
     color: white;
+}
+
+/* account */
+
+.account-body {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-body div {
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
