@@ -2143,20 +2143,35 @@ body {
 }
 
 .account-body div input {
-    border: .1px solid rgb(104, 104, 104);
+    border: .1px solid rgb(156, 156, 156);
     margin: .5rem;
     height: 2rem;
     width: 25rem;
     padding: .2rem;
 }
 
-.account-body div div {
+.account-body div button {
     background-color: black;
-    margin-top: 1rem;
-    padding: .6rem 11.1rem;
+    border: 1px solid black;
+    height: 2.8rem;
+    width: 25.5rem;
+    color: white;
+    transition: all .5s ease;
 }
 
-.account-body div div a {
-    color: white;
+.account-body div a {
+    display: block;
     text-decoration: none;
+    color: white;
+    padding: .8rem;
+    margin: 0;
+    transition: all .5s ease;
+}
+
+.account-body div button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.account-body div a:hover {
+    color: rgb(0, 0, 0);
 }
