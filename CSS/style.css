@@ -2178,29 +2178,109 @@ body {
     color: rgb(0, 0, 0);
 }
 
- /* . . . */
+/* . . . */
 
- /* About us */
- 
- .about-s1 {
-     background-image: url(https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
-     height: 30rem;
-     width: 100%;
-     background-position: top;
-     background-size: cover;
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
+/* About us */
 
- .about-s1 h1 {
-     margin-top: 4.5rem;
-     color: white;
-     text-transform: uppercase;
-     font-weight: 100;
-     text-align: center;
-     letter-spacing: .2rem;
- }
+.about-s1 {
+    background-image: url(https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    height: 30rem;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-s1 h1 {
+    margin-top: 4.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: .2rem;
+}
+
+.about-s2 {
+    height: 45rem;
+}
+
+.about-s2-box {
+    display: flex;
+}
+
+.about-s2-img {
+    background-image: url(/IMG/julian-wan-WNoLnJo7tS8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 45rem;
+    width: 50%;
+}
+
+.about-s2-text {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin-left: 5rem;
+    width: 30%;
+}
+
+.about-s2-text h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-right: 22.7rem;
+    letter-spacing: .2rem;
+    font-weight: 100;
+}
+
+.about-s2-text p {
+    font-size: .9rem;
+}
+
+
+.about-s3 {
+    height: 50rem;
+}
+
+.about-s3-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-s3-img {
+    background-image: url(/IMG/mariya-georgieva-0O6Fv3Ff_XI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 45rem;
+    width: 50%;
+}
+
+.about-s3-text {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin-right: 5rem;
+    width: 30%;
+}
+
+.about-s3-text h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-right: 22.7rem;
+    letter-spacing: .2rem;
+    font-weight: 100;
+}
+
+.about-s3-text p {
+    font-size: .9rem;
+}
 
 
 
@@ -2228,8 +2308,4 @@ body {
 
 
 
-
-
-
-
-  /* . . . */
+/* . . . */
