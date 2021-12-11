@@ -2330,7 +2330,19 @@ body {
     font-size: .9rem;
 }
 
+.about-s5 {
+    background-image: url(https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+    height: 30rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.about-s6 {
+    background-color: white;
+    height: 30rem;
+}
 
 
 
