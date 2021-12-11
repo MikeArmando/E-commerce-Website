@@ -21,8 +21,8 @@ body {
 
 .brand-title {
     text-transform: uppercase;
-    font-family: 'Zen Old Mincho', serif;
-    font-size: 2rem;
+    font-family: 'Lora', serif;
+    font-size: 1.9rem;
     margin: 1rem;
     margin-top: .3rem;
     margin-bottom: .3rem;
@@ -50,6 +50,30 @@ body {
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin: 0rem 2rem;
+}
+
+.nav-products {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: .9rem;
+}
+
+.le {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: .9rem;
+}
+
+.nav-about {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: .9rem;
+}
+
+.nav-contact {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: .9rem;
 }
 
 .navbar-links .uls li a:hover {
@@ -2280,7 +2304,6 @@ body {
 .about-s3-text p {
     font-size: .9rem;
 }
-
 
 .about-s4 {
     background-color: rgb(42, 42, 44);
