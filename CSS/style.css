@@ -70,12 +70,6 @@ body {
     font-size: .9rem;
 }
 
-.nav-contact {
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    font-size: .9rem;
-}
-
 .navbar-links .uls li a:hover {
     text-decoration: underline;
 }
@@ -103,6 +97,10 @@ body {
 }
 
 .nav-shop {
+    padding: 1rem 0rem;
+}
+
+.nav-contact {
     padding: 1rem 0rem;
 }
 
@@ -168,6 +166,10 @@ body {
 }
 
 .nav-shop:hover .sub-menu {
+    display: flex;
+}
+
+.nav-contact:hover .sub-menu {
     display: flex;
 }
 
@@ -324,7 +326,7 @@ body {
 /* Background */
 
 .background1 {
-    background-image: url(/IMG/mahdi-bafande-MuQg0RipDks-unsplash.jpg);
+    background-image: url(/IMG/shttefan-Q--oPI42ArQ-unsplash.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
