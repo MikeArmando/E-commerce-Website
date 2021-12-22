@@ -2208,7 +2208,7 @@ body {
         align-items: center;
         flex-direction: column;
     }
-    
+
     .shopPageBackground h1 {
         text-transform: uppercase;
         letter-spacing: .2rem;
@@ -2235,7 +2235,7 @@ body {
         justify-content: space-evenly;
         align-items: center;
         margin: 1rem;
-        height: 82%;
+        height: 100%;
         width: 100%;
     }
     
@@ -2278,7 +2278,7 @@ body {
         justify-content: space-evenly;
         align-items: center;
         margin: 1rem;
-        height: 82%;
+        height: 100%;
         width: 100%;
     }
     
@@ -2310,7 +2310,13 @@ body {
     .collectionImg2 button a:hover {
         color: white;
     }
-    
+
+
+
+
+
+
+
     .shopPageBackground2 {
         height: 90vh;
     }
@@ -2319,6 +2325,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         height: 100%;
         width: 100%;
     }
@@ -2334,7 +2341,9 @@ body {
         align-items: center;
         margin-left: 0;
         height: 90%;
-        width: 50%;
+        width: 87%;
+        margin-bottom: 10rem;
+        margin-top: 2rem;
     }
     
     .ShopPageItemSection1 {
@@ -2348,39 +2357,13 @@ body {
         align-items: center;
         margin-left: 0;
         height: 90%;
-        width: 50%;
+        width: 87%;
+        margin-bottom: 10rem;
+        margin-top: 0;
     }
-    
-    .ShopPageItem1 h1 {
-        font-family: 'Lora', serif;
-        font-size: 3rem;
-        letter-spacing: .2rem;
-        margin-top: 10rem;
-        color: white;
-    }
-    
-    .ShopPageItem1 button {
-        padding: .6rem 0rem;
-        border: 2px solid;
-        transition: all .7s ease;
-    }
-    
-    .ShopPageItem1 button a {
-        text-transform: uppercase;
-        letter-spacing: .1rem;
-        padding: 1rem 1.5rem;
-        text-decoration: none;
-        color: black;
-        transition: all .7s ease;
-    }
-    
-    .ShopPageItem1 button:hover {
-        background-color: black;
-        color: black;
-    }
-    
-    .ShopPageItem1 button a:hover {
-        color: white;
+
+    .space2 {
+        height: 170rem;
     }
     
     .ShopPageItem2 {
@@ -2392,9 +2375,11 @@ body {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        margin: 0;
+        margin-left: 2;
         height: 90%;
-        width: 50%;
+        width: 100%;
+        margin-bottom: 10rem;
+        margin-top: 36rem;
     }
     
     .ShopPageItemSection2 {
@@ -2406,43 +2391,12 @@ body {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        margin: 0;
+        margin-left: 2;
         height: 90%;
-        width: 50%;
+        width: 100%;
+        margin-bottom: 10rem;
+        margin-top: 36rem;
     }
-    
-    .ShopPageItem2 h1 {
-        font-family: 'Lora', serif;
-        letter-spacing: .2rem;
-        font-size: 3rem;
-        margin-top: 10rem;
-        color: white;
-    }
-    
-    .ShopPageItem2 button {
-        padding: .6rem 0rem;
-        border: 2px solid;
-        transition: all .7s ease;
-    }
-    
-    .ShopPageItem2 button a {
-        text-transform: uppercase;
-        letter-spacing: .1rem;
-        padding: 1rem 1.5rem;
-        text-decoration: none;
-        color: black;
-        transition: all .7s ease;
-    }
-    
-    .ShopPageItem2 button:hover {
-        background-color: black;
-        color: black;
-    }
-    
-    .ShopPageItem2 button a:hover {
-        color: white;
-    }
-    
     
     .ShopPageItem3 {
         background-image: url(https://images.unsplash.com/photo-1617952385804-1da4f8d71ba9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
@@ -2455,7 +2409,9 @@ body {
         align-items: center;
         margin-right: 0;
         height: 90%;
-        width: 50%;
+        width: 87%;
+        margin-bottom: 10rem;
+        margin-top: 36rem;
     }
     
     .ShopPageItemSection3 {
@@ -2469,39 +2425,9 @@ body {
         align-items: center;
         margin-right: 0;
         height: 90%;
-        width: 50%;
-    }
-    
-    .ShopPageItem3 h1 {
-        font-family: 'Lora', serif;
-        letter-spacing: .2rem;
-        font-size: 3rem;
-        margin-top: 10rem;
-        color: white;
-    }
-    
-    .ShopPageItem3 button {
-        padding: .6rem 0rem;
-        border: 2px solid;
-        transition: all .7s ease;
-    }
-    
-    .ShopPageItem3 button a {
-        text-transform: uppercase;
-        letter-spacing: .1rem;
-        padding: 1rem 1.5rem;
-        text-decoration: none;
-        color: black;
-        transition: all .7s ease;
-    }
-    
-    .ShopPageItem3 button:hover {
-        background-color: black;
-        color: black;
-    }
-    
-    .ShopPageItem3 button a:hover {
-        color: white;
+        width: 87%;
+        margin-bottom: 10rem;
+        margin-top: 36rem;
     }
 }
 
