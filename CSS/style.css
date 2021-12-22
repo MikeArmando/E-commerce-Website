@@ -2200,6 +2200,315 @@ body {
     color: white;
 }
 
+@media (max-width: 800px) {
+    .shopPageBackground {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .shopPageBackground h1 {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        margin-top: 6rem;
+        margin-bottom: 0;
+    }
+    
+    .shopPageCollectionBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .collectionImg1 {
+        background-image: url(/IMG/photo-1523380886783-80fdd1fce62d.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 1rem;
+        height: 82%;
+        width: 100%;
+    }
+    
+    .collectionImg1 h1 {
+        font-size: 1.5rem;
+        color: white;
+    }
+    
+    .collectionImg1 button {
+        padding: .7rem 0rem;
+        border: 2px solid;
+        transition: all .7s ease;
+    }
+    
+    .collectionImg1 button a {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .8rem 1.8rem;
+        color: black;
+        text-decoration: none;
+        transition: all .7s ease;
+    }
+    
+    .collectionImg1 button:hover {
+        background-color: black;
+        color: black;
+    }
+    
+    .collectionImg1 button a:hover {
+        color: white;
+    }
+    
+    .collectionImg2 {
+        background-image: url(https://images.unsplash.com/photo-1529809773508-cd894c3de760?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xvdGhpbmclMjBtZW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 1rem;
+        height: 82%;
+        width: 100%;
+    }
+    
+    .collectionImg2 h1 {
+        font-size: 1.5rem;
+        color: white;
+    }
+    
+    .collectionImg2 button {
+        padding: .7rem 0rem;
+        border: 2px solid;
+        transition: all .7s ease;
+    }
+    
+    .collectionImg2 button a {
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: .8rem 1.8rem;
+        color: black;
+        text-decoration: none;
+        transition: all .7s ease;
+    }
+    
+    .collectionImg2 button:hover {
+        background-color: black;
+        color: black;
+    }
+    
+    .collectionImg2 button a:hover {
+        color: white;
+    }
+    
+    .shopPageBackground2 {
+        height: 90vh;
+    }
+    
+    .shopPageItemBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .ShopPageItem1 {
+        background-image: url(https://images.unsplash.com/photo-1523381294911-8d3cead13475?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 0;
+        height: 90%;
+        width: 50%;
+    }
+    
+    .ShopPageItemSection1 {
+        background-image: url(https://images.unsplash.com/photo-1514311548104-ae305aac4688?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 0;
+        height: 90%;
+        width: 50%;
+    }
+    
+    .ShopPageItem1 h1 {
+        font-family: 'Lora', serif;
+        font-size: 3rem;
+        letter-spacing: .2rem;
+        margin-top: 10rem;
+        color: white;
+    }
+    
+    .ShopPageItem1 button {
+        padding: .6rem 0rem;
+        border: 2px solid;
+        transition: all .7s ease;
+    }
+    
+    .ShopPageItem1 button a {
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        padding: 1rem 1.5rem;
+        text-decoration: none;
+        color: black;
+        transition: all .7s ease;
+    }
+    
+    .ShopPageItem1 button:hover {
+        background-color: black;
+        color: black;
+    }
+    
+    .ShopPageItem1 button a:hover {
+        color: white;
+    }
+    
+    .ShopPageItem2 {
+        background-image: url(https://images.unsplash.com/photo-1564557287817-3785e38ec1f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        height: 90%;
+        width: 50%;
+    }
+    
+    .ShopPageItemSection2 {
+        background-image: url(https://images.unsplash.com/photo-1564859227552-81fde4a1df0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        height: 90%;
+        width: 50%;
+    }
+    
+    .ShopPageItem2 h1 {
+        font-family: 'Lora', serif;
+        letter-spacing: .2rem;
+        font-size: 3rem;
+        margin-top: 10rem;
+        color: white;
+    }
+    
+    .ShopPageItem2 button {
+        padding: .6rem 0rem;
+        border: 2px solid;
+        transition: all .7s ease;
+    }
+    
+    .ShopPageItem2 button a {
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        padding: 1rem 1.5rem;
+        text-decoration: none;
+        color: black;
+        transition: all .7s ease;
+    }
+    
+    .ShopPageItem2 button:hover {
+        background-color: black;
+        color: black;
+    }
+    
+    .ShopPageItem2 button a:hover {
+        color: white;
+    }
+    
+    
+    .ShopPageItem3 {
+        background-image: url(https://images.unsplash.com/photo-1617952385804-1da4f8d71ba9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: 0;
+        height: 90%;
+        width: 50%;
+    }
+    
+    .ShopPageItemSection3 {
+        background-image: url(https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: 0;
+        height: 90%;
+        width: 50%;
+    }
+    
+    .ShopPageItem3 h1 {
+        font-family: 'Lora', serif;
+        letter-spacing: .2rem;
+        font-size: 3rem;
+        margin-top: 10rem;
+        color: white;
+    }
+    
+    .ShopPageItem3 button {
+        padding: .6rem 0rem;
+        border: 2px solid;
+        transition: all .7s ease;
+    }
+    
+    .ShopPageItem3 button a {
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        padding: 1rem 1.5rem;
+        text-decoration: none;
+        color: black;
+        transition: all .7s ease;
+    }
+    
+    .ShopPageItem3 button:hover {
+        background-color: black;
+        color: black;
+    }
+    
+    .ShopPageItem3 button a:hover {
+        color: white;
+    }
+}
+
+@media (max-width: 400px) {
+    
+}
+
 /* account */
 
 .account-body {
