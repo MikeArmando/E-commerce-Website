@@ -385,7 +385,7 @@ body {
 
 /* . . . */
 
-/* Background */
+/* index */
 
 .background1 {
     background-image: url(/IMG/shttefan-Q--oPI42ArQ-unsplash.jpg);
@@ -463,10 +463,6 @@ body {
         outline: none;
     }
 }
-
-/* . . . */
-
-/* Special */
 
 .special-background {
     background-color: white;
@@ -1911,6 +1907,7 @@ body {
     letter-spacing: .2rem;
     margin-top: 6rem;
     margin-bottom: 0;
+    font-weight: 200;    
 }
 
 .shopPageCollectionBox {
