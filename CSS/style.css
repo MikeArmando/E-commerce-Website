@@ -2698,10 +2698,16 @@ body {
     background-size: cover;
 }
 
+.feature-background2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .feature-background2 .community-img1 {
     background-image: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
-    height: 130%;
+    height: 90%;
+    width: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2755,10 +2761,10 @@ body {
     color: white;
 }
 
-
 .feature-background2 .purpose-img2 {
     background-image: url(https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1183&q=80);
-    height: 130%;
+    height: 90%;
+    width: 50%;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
