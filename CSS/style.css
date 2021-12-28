@@ -1902,6 +1902,10 @@ body {
         display: flex;
     }
 
+    .shirtFPageBackground {
+        display: none;
+    }    
+
     .shirtPageItemBoxV2 {
         display: flex;
         flex-direction: column;
