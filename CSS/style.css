@@ -1890,68 +1890,38 @@ body {
     font-size: .8rem;
 }
 
+.shirtPageBackgroundV2 {
+    display: none;
+}
+
 @media (max-width: 400px) {
-
     .shirtPageBackground {
-        height: 220vh;
+        display: none;
     }
-
-    .shirtFPageBackground {
-        height: 200vh;
-    }
-
-    .shirtPageItemBox {
-        height: 100%;
-        width: 100%;
+    .shirtPageBackgroundV2 {
         display: flex;
-        justify-content: space-evenly;
+    }
+
+    .shirtPageItemBoxV2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
+        margin-top: 5rem;
+        margin-left: 1.7rem;
     }
 
-    .shirtPageItem {
-        width: 20%;
-        margin-top: 8rem;
-    }
-
-    .shirtPageItem img {
+    .shirtPageItemPriceV2 {
         width: 100%;
     }
 
-    .shirtPageItemPrice {
-        display: flex;
-        justify-content: space-around;
-        align-content: center;
-    }
-
-    .shirtPageItemPrice1 {
-        margin-left: .5rem;
-    }
-
-    .shirtPageItemPrice2 {
-        margin-right: 0rem;
-    }
-
-    .shirtPageItemPrice3 {
-        margin-right: 0rem;
-    }
-
-    .shirtPageItemPrice4 {
-        margin-right: 3.8rem;
-    }
-
-    .shirtPageItemPriceText {
+    .shirtPageItemPriceV2 p {
         font-family: 'Poppins', sans-serif;
         text-transform: uppercase;
         letter-spacing: .2rem;
         font-size: .8rem;
     }
-
-    .shirtPageItemPriceNum {
-        font-size: .8rem;
-    }
 }
-
-/* . . .  */
 
 /* Shop-Page */
 
