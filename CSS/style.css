@@ -1133,10 +1133,6 @@ body {
     }
 }
 
-/* . . . */
-
-/* feature-background2 */
-
 .feature-background2 {
     display: grid;
     grid-template: auto auto / auto auto;
@@ -1145,7 +1141,8 @@ body {
 
 .feature-background2 .feature-img1 {
     background-image: url(/IMG/justin-buisson-JU5_bUxr5Rg-unsplash.jpg);
-    height: 130%;
+    height: 90%;
+    width: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1201,12 +1198,13 @@ body {
 
 .feature-background2 .feature-img2 {
     background-image: url(/IMG/brandon-webb-GNPCqlUex8U-unsplash.jpg);
-    height: 130%;
-    background-position: top;
+    height: 90%;
+    width: 50%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 2rem 1rem;
-    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 .feature-background2 .feature-img2 .inner-img-box {
