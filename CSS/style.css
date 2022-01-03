@@ -1252,6 +1252,128 @@ body {
     color: white;
 }
 
+@media (max-width: 800px) {
+    .feature-background2 {
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+        margin-bottom: 5rem;
+    }
+
+    .feature-background2 .feature-img1 {
+        background-image: url(/IMG/justin-buisson-JU5_bUxr5Rg-unsplash.jpg);
+        height: 100%;
+        width: 90%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 4rem 0rem;
+        margin-left: 0;
+    }
+
+    .feature-background2 .feature-img1 .inner-img-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .feature-background2 .feature-img1 .inner-img-box h1 {
+        text-transform: uppercase;
+        letter-spacing: .5rem;
+        color: white;
+        text-align: center;
+    }
+
+    .feature-background2 .feature-img1 .inner-img-box button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        margin-left: 0;
+        margin-bottom: 3rem;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: 0;
+        border: 2px solid black;
+        transition: background-color .5s ease-out;
+    }
+
+    .feature-background2 .feature-img1 .inner-img-box button a {
+        padding: .7rem 1.5rem;
+        color: black;
+        text-decoration: none;
+        transition: color .5s ease-out;
+    }
+
+    .feature-background2 .feature-img1 .inner-img-box button:hover {
+        background-color: black;
+    }
+
+    .feature-background2 .feature-img1 .inner-img-box button a:hover {
+        color: white;
+    }
+
+    .feature-background2 .feature-img2 {
+        background-image: url(/IMG/brandon-webb-GNPCqlUex8U-unsplash.jpg);
+        height: 100%;
+        width: 90%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0rem 0rem;
+        margin-left: 0;
+    }
+
+    .feature-background2 .feature-img2 .inner-img-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+    }
+
+    .feature-background2 .feature-img2 .inner-img-box h1 {
+        text-transform: uppercase;
+        letter-spacing: .5rem;
+        color: white;
+        text-align: center;
+    }
+
+    .feature-background2 .feature-img2 .inner-img-box button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        margin-left: 0;
+        margin-bottom: 3rem;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: 0;
+        border: 2px solid black;
+        transition: background-color .5s ease-out;
+    }
+
+    .feature-background2 .feature-img2 .inner-img-box button a {
+        color: black;
+        text-decoration: none;
+        padding: .7rem 1.5rem;
+        transition: color .5s ease-out;
+    }
+
+    .feature-background2 .feature-img2 .inner-img-box button:hover {
+        background-color: black;
+    }
+
+    .feature-background2 .feature-img2 .inner-img-box button a:hover {
+        color: white;
+    }
+}
+
 @media (max-width: 400px) {
     .feature-background2 {
         display: flex;
