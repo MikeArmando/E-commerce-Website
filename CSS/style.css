@@ -1912,7 +1912,6 @@ body {
     color: white;
 }
 
-
 .ShopPageItem3 {
     background-image: url(https://images.unsplash.com/photo-1617952385804-1da4f8d71ba9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
     background-repeat: no-repeat;
@@ -2415,6 +2414,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 90vh;
 }
 
 .aboutUsBox .community-img1 {
