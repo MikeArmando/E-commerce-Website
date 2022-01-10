@@ -1081,12 +1081,12 @@ body {
     .feature-background2 .feature-img1 {
         background-image: url(/IMG/justin-buisson-JU5_bUxr5Rg-unsplash.jpg);
         height: 100%;
-        width: 100%;
+        width: 90%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        margin: 4rem 0rem;
-        margin-left: 0;
+        margin-left: 1.2rem;
+        margin-right: 1rem;
     }
 
     .feature-background2 .feature-img1 .inner-img-box {
@@ -1138,12 +1138,12 @@ body {
     .feature-background2 .feature-img2 {
         background-image: url(/IMG/brandon-webb-GNPCqlUex8U-unsplash.jpg);
         height: 100%;
-        width: 100%;
+        width: 90%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        margin: 0rem 0rem;
-        margin-left: 0;
+        margin-left: 1.2rem;
+        margin-right: 1rem;
     }
 
     .feature-background2 .feature-img2 .inner-img-box {
