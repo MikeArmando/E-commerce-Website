@@ -727,6 +727,7 @@ body {
 
 .feature-background .box h1 {
     color: white;
+    text-align: center;
 }
 
 .feature-title {
@@ -951,7 +952,7 @@ body {
     .feature-background2 {
         display: flex;
         flex-direction: column;
-        height: 150vh;
+        height: 190vh;
         margin-bottom: 5rem;
     }
 
@@ -963,8 +964,6 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         margin-bottom: 0;
-        margin-left: 1.2rem;
-        margin-right: 1rem;
     }
 
     .feature-background2 .feature-img1 .inner-img-box {
@@ -1020,8 +1019,6 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        margin-left: 1.2rem;
-        margin-right: 1rem;
     }
 
     .feature-background2 .feature-img2 .inner-img-box {
