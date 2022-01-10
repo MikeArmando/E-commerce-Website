@@ -263,9 +263,9 @@ body {
     .brand-title {
         text-transform: uppercase;
         font-family: 'Kaisei HarunoUmi', serif;
-        font-size: 2rem;
+        font-size: 1.7rem;
         margin: .3rem;
-        margin-left: 20rem;
+        margin-left: 5rem;
     }
 
     .toggle-button {
@@ -328,7 +328,7 @@ body {
     .brand-title {
         text-transform: uppercase;
         font-family: 'Kaisei HarunoUmi', serif;
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         margin-left: 4.8rem;
     }
 
@@ -831,18 +831,18 @@ body {
 .feature-background2 {
     display: grid;
     grid-template: auto auto / auto auto;
-    height: 90vh;
+    height: 120vh;
 }
 
 .feature-background2 .feature-img1 {
     background-image: url(/IMG/justin-buisson-JU5_bUxr5Rg-unsplash.jpg);
-    height: 90%;
-    width: 50%;
+    height: 120%;
+    width: 92%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 2rem 1rem;
-    margin-left: 2rem;
+    margin: 2rem;
+    margin-right: 0rem;
 }
 
 .feature-background2 .feature-img1 .inner-img-box {
@@ -893,13 +893,13 @@ body {
 
 .feature-background2 .feature-img2 {
     background-image: url(/IMG/brandon-webb-GNPCqlUex8U-unsplash.jpg);
-    height: 90%;
-    width: 50%;
+    height: 120%;
+    width: 92%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 2rem 1rem;
-    margin-left: 2rem;
+    margin: 2rem;
+    margin-right: 0rem;
 }
 
 .feature-background2 .feature-img2 .inner-img-box {
@@ -2415,13 +2415,13 @@ body {
     background-size: cover;
 }
 
-.feature-background2 {
+.aboutUsBox {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.feature-background2 .community-img1 {
+.aboutUsBox .community-img1 {
     background-image: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     height: 90%;
     width: 50%;
@@ -2432,7 +2432,7 @@ body {
     margin-left: 2rem;
 }
 
-.feature-background2 .community-img1 .inner-img-box {
+.aboutUsBox .community-img1 .inner-img-box {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -2441,14 +2441,14 @@ body {
     overflow: hidden;
 }
 
-.feature-background2 .community-img1 .inner-img-box h1 {
+.aboutUsBox .community-img1 .inner-img-box h1 {
     text-transform: uppercase;
     letter-spacing: .5rem;
     color: white;
     margin: 1rem 3rem;
 }
 
-.feature-background2 .community-img1 .inner-img-box button {
+.aboutUsBox .community-img1 .inner-img-box button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2463,22 +2463,22 @@ body {
     transition: background-color .5s ease-out;
 }
 
-.feature-background2 .community-img1 .inner-img-box button a {
+.aboutUsBox .community-img1 .inner-img-box button a {
     padding: .7rem 1.5rem;
     color: black;
     text-decoration: none;
     transition: color .5s ease-out;
 }
 
-.feature-background2 .community-img1 .inner-img-box button:hover {
+.aboutUsBox .community-img1 .inner-img-box button:hover {
     background-color: black;
 }
 
-.feature-background2 .community-img1 .inner-img-box button a:hover {
+.aboutUsBox .community-img1 .inner-img-box button a:hover {
     color: white;
 }
 
-.feature-background2 .purpose-img2 {
+.aboutUsBox .purpose-img2 {
     background-image: url(https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1183&q=80);
     height: 90%;
     width: 50%;
@@ -2489,7 +2489,7 @@ body {
     margin-right: 2rem;
 }
 
-.feature-background2 .purpose-img2 .inner-img-box {
+.aboutUsBox .purpose-img2 .inner-img-box {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -2497,14 +2497,14 @@ body {
     height: 100%;
 }
 
-.feature-background2 .purpose-img2 .inner-img-box h1 {
+.aboutUsBox .purpose-img2 .inner-img-box h1 {
     text-transform: uppercase;
     letter-spacing: .5rem;
     color: white;
     margin: 1rem 3rem;
 }
 
-.feature-background2 .purpose-img2 .inner-img-box button {
+.aboutUsBox .purpose-img2 .inner-img-box button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2519,18 +2519,18 @@ body {
     transition: background-color .5s ease-out;
 }
 
-.feature-background2 .purpose-img2 .inner-img-box button a {
+.aboutUsBox .purpose-img2 .inner-img-box button a {
     color: black;
     text-decoration: none;
     padding: .7rem 1.5rem;
     transition: color .5s ease-out;
 }
 
-.feature-background2 .purpose-img2 .inner-img-box button:hover {
+.aboutUsBox .purpose-img2 .inner-img-box button:hover {
     background-color: black;
 }
 
-.feature-background2 .purpose-img2 .inner-img-box button a:hover {
+.aboutUsBox .purpose-img2 .inner-img-box button a:hover {
     color: white;
 }
 
