@@ -545,7 +545,7 @@ body {
     .special-background {
         background-color: white;
     }
-    
+
     .special-background h1 {
         display: flex;
         justify-content: center;
@@ -553,13 +553,13 @@ body {
         font-size: 1.7rem;
         font-weight: 200;
     }
-    
+
     .special-box {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
+
     .zoom img {
         background-position: center;
         background-repeat: no-repeat;
@@ -571,11 +571,11 @@ body {
         padding: 0;
         margin: 0;
     }
-    
+
     .zoom img:hover {
         transform: scale(1.2);
     }
-    
+
     .zoom {
         overflow: hidden;
         margin: 1rem;
@@ -584,29 +584,29 @@ body {
         justify-content: center;
         align-items: center;
     }
-    
+
     .zoom .item1 {
         overflow: hidden;
         margin: 1rem;
     }
-    
+
     .zoom .item2 {
         overflow: hidden;
         margin: 1rem;
     }
-    
+
     .zoom .item3 {
         overflow: hidden;
         margin: 1rem;
     }
-    
+
     .btnall {
         text-decoration: none;
         letter-spacing: .2rem;
         text-transform: uppercase;
         color: black;
     }
-    
+
     .btnall:hover {
         text-decoration: underline;
     }
@@ -636,7 +636,7 @@ body {
         justify-content: center;
         align-items: center;
     }
-    
+
     .zoom img {
         background-position: center;
         background-repeat: no-repeat;
@@ -648,11 +648,11 @@ body {
         padding: 0;
         margin: 0;
     }
-    
+
     .zoom img:hover {
         transform: scale(1.2);
     }
-    
+
     .zoom {
         overflow: hidden;
         margin: 1rem;
@@ -661,29 +661,29 @@ body {
         justify-content: center;
         align-items: center;
     }
-    
+
     .zoom .item1 {
         overflow: hidden;
         margin: 1rem;
     }
-    
+
     .zoom .item2 {
         overflow: hidden;
         margin: 1rem;
     }
-    
+
     .zoom .item3 {
         overflow: hidden;
         margin: 1rem;
     }
-    
+
     .btnall {
         text-decoration: none;
         letter-spacing: .2rem;
         text-transform: uppercase;
         color: black;
     }
-    
+
     .btnall:hover {
         text-decoration: underline;
     }
@@ -2534,38 +2534,263 @@ body {
     height: 5rem;
 }
 
+.about-s2M {
+    display: none;
+}
+
+.about-s3M {
+    display: none;
+}
+
 @media (max-width: 800px) {
+    .about-s2 {
+        display: none;
+    }
+
+    .about-s3 {
+        display: none;
+    }
+
+    .about-s2M {
+        display: flex;
+    }
     
+    .about-s3M {
+        display: flex;
+    }
+
+    .about-s2M {
+        height: 65rem;
+    }
+
+    .about-s2-boxM {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-s2-imgM {
+        background-image: url(/IMG/julian-wan-WNoLnJo7tS8-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 45rem;
+        width: 100%;
+    }
+
+    .about-s2-textM {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(0, 0, 0);
+    }
+
+    .about-s2-textM h2 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        font-weight: 100;
+    }
+
+    .about-s2-textM p {
+        font-size: .9rem;
+    }
+
+    .about-s3M {
+        height: auto;
+    }
+
+    .about-s3-boxM {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-s3-imgM {
+        background-image: url(/IMG/mariya-georgieva-0O6Fv3Ff_XI-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 45rem;
+        width: 100%;
+    }
+
+    .about-s3-textM {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        width: 100%;
+    }
+
+    .about-s3-textM h2 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        font-weight: 100;
+    }
+
+    .about-s3-textM p {
+        font-size: .9rem;
+    }
+
+    .about-s4 {
+        background-color: rgb(42, 42, 44);
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-s4 h1 {
+        font-family: 'Lato', sans-serif;
+        color: rgb(233, 233, 233);
+        text-transform: uppercase;
+        letter-spacing: .3rem;
+        font-weight: 100;
+        font-size: 1.3rem;
+    }
+
+    .about-s4 h2 {
+        font-family: 'Lato', sans-serif;
+        color: rgb(233, 233, 233);
+        font-weight: 100;
+        font-size: .9rem;
+    }
+
+    .about-s5 {
+        background-image: url(https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+        height: 30rem;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .aboutUsBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+    }
+
+    .aboutUsBox .community-img1 {
+        background-image: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+        height: 90%;
+        width: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 2rem 1rem;
+        margin-left: 2rem;
+    }
+
+    .aboutUsBox .community-img1 .inner-img-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .aboutUsBox .community-img1 .inner-img-box h1 {
+        text-transform: uppercase;
+        letter-spacing: .5rem;
+        color: white;
+        margin: 1rem 3rem;
+    }
+
+    .aboutUsBox .community-img1 .inner-img-box button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        margin-left: 3rem;
+        margin-bottom: 3rem;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: 0;
+        border: 2px solid black;
+        transition: background-color .5s ease-out;
+    }
+
+    .aboutUsBox .community-img1 .inner-img-box button a {
+        padding: .7rem 1.5rem;
+        color: black;
+        text-decoration: none;
+        transition: color .5s ease-out;
+    }
+
+    .aboutUsBox .community-img1 .inner-img-box button:hover {
+        background-color: black;
+    }
+
+    .aboutUsBox .community-img1 .inner-img-box button a:hover {
+        color: white;
+    }
+
+    .aboutUsBox .purpose-img2 {
+        background-image: url(https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1183&q=80);
+        height: 90%;
+        width: 50%;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 2rem 1rem;
+        margin-right: 2rem;
+    }
+
+    .aboutUsBox .purpose-img2 .inner-img-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        height: 100%;
+    }
+
+    .aboutUsBox .purpose-img2 .inner-img-box h1 {
+        text-transform: uppercase;
+        letter-spacing: .5rem;
+        color: white;
+        margin: 1rem 3rem;
+    }
+
+    .aboutUsBox .purpose-img2 .inner-img-box button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        margin-left: 3rem;
+        margin-bottom: 3rem;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding: 0;
+        border: 2px solid black;
+        transition: background-color .5s ease-out;
+    }
+
+    .aboutUsBox .purpose-img2 .inner-img-box button a {
+        color: black;
+        text-decoration: none;
+        padding: .7rem 1.5rem;
+        transition: color .5s ease-out;
+    }
+
+    .aboutUsBox .purpose-img2 .inner-img-box button:hover {
+        background-color: black;
+    }
+
+    .aboutUsBox .purpose-img2 .inner-img-box button a:hover {
+        color: white;
+    }
+
+    .about-s6 {
+        height: 5rem;
+    }
 }
 
-@media (max-width: 400px) {
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 400px) {}
