@@ -388,7 +388,7 @@ body {
 /* index */
 
 .background1 {
-    background-image: url(/IMG/shttefan-Q--oPI42ArQ-unsplash.jpg);
+    background-image: url(IMG/shttefan-Q--oPI42ArQ-unsplash.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -708,7 +708,7 @@ body {
 /* Background2 */
 
 .feature-background {
-    background-image: url(/IMG/photo-1523380886783-80fdd1fce62d.jpg);
+    background-image: url(IMG/photo-1523380886783-80fdd1fce62d.jpg);
     height: 85vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -836,7 +836,7 @@ body {
 }
 
 .feature-background2 .feature-img1 {
-    background-image: url(/IMG/justin-buisson-JU5_bUxr5Rg-unsplash.jpg);
+    background-image: url(IMG/justin-buisson-JU5_bUxr5Rg-unsplash.jpg);
     height: 120%;
     width: 92%;
     background-position: center;
@@ -893,7 +893,7 @@ body {
 }
 
 .feature-background2 .feature-img2 {
-    background-image: url(/IMG/brandon-webb-GNPCqlUex8U-unsplash.jpg);
+    background-image: url(IMG/brandon-webb-GNPCqlUex8U-unsplash.jpg);
     height: 120%;
     width: 92%;
     background-position: center;
@@ -1695,7 +1695,7 @@ body {
 }
 
 .collectionImg1 {
-    background-image: url(/IMG/photo-1523380886783-80fdd1fce62d.jpg);
+    background-image: url(IMG/photo-1523380886783-80fdd1fce62d.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1738,7 +1738,7 @@ body {
 }
 
 .collectionImg2 {
-    background-image: url(https://images.unsplash.com/photo-1529809773508-cd894c3de760?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xvdGhpbmclMjBtZW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-image: url(IMG/g.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1793,7 +1793,7 @@ body {
 }
 
 .ShopPageItem1 {
-    background-image: url(https://images.unsplash.com/photo-1523381294911-8d3cead13475?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
+    background-image: url(IMG/photo-1523380886783-80fdd1fce62d.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1807,7 +1807,7 @@ body {
 }
 
 .ShopPageItemSection1 {
-    background-image: url(https://images.unsplash.com/photo-1514311548104-ae305aac4688?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80);
+    background-image: url(IMG/photo-1514311548104-ae305aac4688.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1853,7 +1853,7 @@ body {
 }
 
 .ShopPageItem2 {
-    background-image: url(https://images.unsplash.com/photo-1564557287817-3785e38ec1f5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80);
+    background-image: url(IMG/photo-1564557287817-3785e38ec1f5.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1867,7 +1867,7 @@ body {
 }
 
 .ShopPageItemSection2 {
-    background-image: url(https://images.unsplash.com/photo-1564859227552-81fde4a1df0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
+    background-image: url(IMG/photo-1564859227552-81fde4a1df0b.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1913,7 +1913,7 @@ body {
 }
 
 .ShopPageItem3 {
-    background-image: url(https://images.unsplash.com/photo-1617952385804-1da4f8d71ba9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80);
+    background-image: url(IMG/photo-1617952385804-1da4f8d71ba9.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1927,7 +1927,7 @@ body {
 }
 
 .ShopPageItemSection3 {
-    background-image: url(https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-image: url(IMG/photo-1503342217505-b0a15ec3261c.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -2278,7 +2278,7 @@ body {
 /* About us */
 
 .about-s1 {
-    background-image: url(https://images.unsplash.com/photo-1544441893-675973e31985?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-image: url(IMG/photo-1544441893-675973e31985.jfif);
     height: 32rem;
     width: 100%;
     background-position: top;
@@ -2306,7 +2306,7 @@ body {
 }
 
 .about-s2-img {
-    background-image: url(/IMG/julian-wan-WNoLnJo7tS8-unsplash.jpg);
+    background-image: url(IMG/julian-wan-WNoLnJo7tS8-unsplash.jpg);
     background-position: center;
     background-size: cover;
     height: 45rem;
@@ -2346,7 +2346,7 @@ body {
 }
 
 .about-s3-img {
-    background-image: url(/IMG/mariya-georgieva-0O6Fv3Ff_XI-unsplash.jpg);
+    background-image: url(IMG/mariya-georgieva-0O6Fv3Ff_XI-unsplash.jpg);
     background-position: center;
     background-size: cover;
     height: 45rem;
@@ -2402,7 +2402,7 @@ body {
 }
 
 .about-s5 {
-    background-image: url(https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+    background-image: url(IMG/pa.jfif);
     height: 30rem;
     background-attachment: fixed;
     background-position: center;
@@ -2418,7 +2418,7 @@ body {
 }
 
 .aboutUsBox .community-img1 {
-    background-image: url(https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-image: url(IMG/gr.jfif);
     height: 90%;
     width: 50%;
     background-position: center;
@@ -2475,7 +2475,7 @@ body {
 }
 
 .aboutUsBox .purpose-img2 {
-    background-image: url(https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1183&q=80);
+    background-image: url(IMG/f.jfif);
     height: 90%;
     width: 50%;
     background-position: top;
